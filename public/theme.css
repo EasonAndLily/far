@@ -4,10 +4,15 @@ body {
   height: 100%;
   margin: 0;
   overflow: hidden;
-  font-family: STXingkai, STKaiti, Arial, Helvetica, sans-serif;
+  font-family: STXingkai, STKaiti, Arial, Helvetica, sans-serif !important;
 }
 
 body {
   background: url('./bg.jpeg') no-repeat;
   background-size: cover;
+  background-blend-mode: multiply;
+}
+
+main {
+  margin-top: 30px;
 }
