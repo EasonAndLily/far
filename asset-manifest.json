@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/far/static/css/main.d98cb523.chunk.css",
-    "main.js": "/far/static/js/main.dc3906df.chunk.js",
-    "main.js.map": "/far/static/js/main.dc3906df.chunk.js.map",
+    "main.css": "/far/static/css/main.6eb0b755.chunk.css",
+    "main.js": "/far/static/js/main.77f04cb7.chunk.js",
+    "main.js.map": "/far/static/js/main.77f04cb7.chunk.js.map",
     "runtime-main.js": "/far/static/js/runtime-main.85f1febd.js",
     "runtime-main.js.map": "/far/static/js/runtime-main.85f1febd.js.map",
-    "static/css/2.de424728.chunk.css": "/far/static/css/2.de424728.chunk.css",
-    "static/js/2.73f8d3cb.chunk.js": "/far/static/js/2.73f8d3cb.chunk.js",
-    "static/js/2.73f8d3cb.chunk.js.map": "/far/static/js/2.73f8d3cb.chunk.js.map",
+    "static/css/2.1a5b40eb.chunk.css": "/far/static/css/2.1a5b40eb.chunk.css",
+    "static/js/2.46160449.chunk.js": "/far/static/js/2.46160449.chunk.js",
+    "static/js/2.46160449.chunk.js.map": "/far/static/js/2.46160449.chunk.js.map",
     "index.html": "/far/index.html",
-    "precache-manifest.41da986cc684a2fd3ddd8e06dcb913f1.js": "/far/precache-manifest.41da986cc684a2fd3ddd8e06dcb913f1.js",
+    "precache-manifest.ff716ccac751c1cc099969a7848954d2.js": "/far/precache-manifest.ff716ccac751c1cc099969a7848954d2.js",
     "service-worker.js": "/far/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/far/static/css/2.de424728.chunk.css.map",
-    "static/css/main.d98cb523.chunk.css.map": "/far/static/css/main.d98cb523.chunk.css.map",
-    "static/js/2.73f8d3cb.chunk.js.LICENSE.txt": "/far/static/js/2.73f8d3cb.chunk.js.LICENSE.txt",
+    "static/css/2.1a5b40eb.chunk.css.map": "/far/static/css/2.1a5b40eb.chunk.css.map",
+    "static/css/main.6eb0b755.chunk.css.map": "/far/static/css/main.6eb0b755.chunk.css.map",
+    "static/js/2.46160449.chunk.js.LICENSE.txt": "/far/static/js/2.46160449.chunk.js.LICENSE.txt",
     "static/media/github.svg": "/far/static/media/github.e6f791f7.svg",
     "static/media/gitlab.svg": "/far/static/media/gitlab.eb2e3338.svg",
     "static/media/location.svg": "/far/static/media/location.11469798.svg",
@@ -23,9 +23,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.85f1febd.js",
-    "static/css/2.de424728.chunk.css",
-    "static/js/2.73f8d3cb.chunk.js",
-    "static/css/main.d98cb523.chunk.css",
-    "static/js/main.dc3906df.chunk.js"
+    "static/css/2.1a5b40eb.chunk.css",
+    "static/js/2.46160449.chunk.js",
+    "static/css/main.6eb0b755.chunk.css",
+    "static/js/main.77f04cb7.chunk.js"
   ]
 }
