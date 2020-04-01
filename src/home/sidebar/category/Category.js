@@ -1,47 +1,60 @@
 import React from 'react';
 import './Category.css';
-import { Nav, Dropdown, Sidenav, Icon } from 'rsuite';
+import gear from './gear.svg';
+import fold from './fold.svg';
+import thought from './thought.svg';
+import cleanCode from './clean-code.svg';
+import openSource from './open-source.svg';
 
 class Category extends React.Component {
   render() {
     return (
-      <Sidenav
-        className="rounded shadow mt-3"
-        appearance="subtle"
-        defaultOpenKeys={['3', '4']}>
-        <Sidenav.Body>
-          <Nav className="bg-white">
-            <Nav.Item eventKey="1" icon={<Icon icon="dashboard" />}>
-              Dashboard
-            </Nav.Item>
-            <Nav.Item eventKey="2" icon={<Icon icon="group" />}>
-              User Group
-            </Nav.Item>
-            <Dropdown
-              eventKey="3"
-              title="Advanced"
-              icon={<Icon icon="magic" />}
-              placement="leftStart">
-              <Dropdown.Item eventKey="3-1">Geo</Dropdown.Item>
-              <Dropdown.Item eventKey="3-2">Devices</Dropdown.Item>
-              <Dropdown.Item eventKey="3-3">Loyalty</Dropdown.Item>
-              <Dropdown.Item eventKey="3-4">Visit Depth</Dropdown.Item>
-            </Dropdown>
-            <Dropdown
-              eventKey="4"
-              title="Settings"
-              icon={<Icon icon="gear-circle" />}>
-              <Dropdown.Item eventKey="4-1">Applications</Dropdown.Item>
-              <Dropdown.Item eventKey="4-2">Channels</Dropdown.Item>
-              <Dropdown.Item eventKey="4-3">Versions</Dropdown.Item>
-              <Dropdown.Menu eventKey="4-5" title="Custom Action">
-                <Dropdown.Item eventKey="4-5-1">Action Name</Dropdown.Item>
-                <Dropdown.Item eventKey="4-5-2">Action Params</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </Nav>
-        </Sidenav.Body>
-      </Sidenav>
+      <nav className="bg-white rounded shadow mt-4 nav-max-height">
+        <details>
+          <summary className="pt-z1 pb-1">
+            <img className="mr-3 ml-3" src={gear} alt="gear" />
+            编程语言基础
+            <img className="fold" src={fold} alt="gear" />
+          </summary>
+          <p>Java SE 教程</p>
+          <p>JavaScript 教程</p>
+          <p>Python3 教程</p>
+          <p>Node 教程</p>
+        </details>
+        <details>
+          <summary className="pt-1 pb-1">
+            <img className="mr-3 ml-3" src={thought} alt="thought" />
+            编程设计思维
+            <img className="fold" src={fold} alt="gear" />
+          </summary>
+          <p>Java SE 教程</p>
+          <p>JavaScript 教程</p>
+          <p>Python3 教程</p>
+          <p>Node 教程</p>
+        </details>
+        <details>
+          <summary className="pt-1 pb-1">
+            <img className="mr-3 ml-3" src={cleanCode} alt="clean code" />
+            整洁代码与重构
+            <img className="fold" src={fold} alt="gear" />
+          </summary>
+          <p>Java SE 教程</p>
+          <p>JavaScript 教程</p>
+          <p>Python3 教程</p>
+          <p>Node 教程</p>
+        </details>
+        <details>
+          <summary className="pt-1 pb-1">
+            <img className="mr-3 ml-3" src={openSource} alt="open source" />
+            优秀开源项目
+            <img className="fold" src={fold} alt="gear" />
+          </summary>
+          <p>Java SE 教程</p>
+          <p>JavaScript 教程</p>
+          <p>Python3 教程</p>
+          <p>Node 教程</p>
+        </details>
+      </nav>
     );
   }
 }
