@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/far/static/css/main.19a7baec.chunk.css",
-    "main.js": "/far/static/js/main.43fb35ee.chunk.js",
-    "main.js.map": "/far/static/js/main.43fb35ee.chunk.js.map",
+    "main.css": "/far/static/css/main.968fcb44.chunk.css",
+    "main.js": "/far/static/js/main.33633344.chunk.js",
+    "main.js.map": "/far/static/js/main.33633344.chunk.js.map",
     "runtime-main.js": "/far/static/js/runtime-main.85f1febd.js",
     "runtime-main.js.map": "/far/static/js/runtime-main.85f1febd.js.map",
     "static/css/2.1a5b40eb.chunk.css": "/far/static/css/2.1a5b40eb.chunk.css",
-    "static/js/2.0fe350a6.chunk.js": "/far/static/js/2.0fe350a6.chunk.js",
-    "static/js/2.0fe350a6.chunk.js.map": "/far/static/js/2.0fe350a6.chunk.js.map",
+    "static/js/2.69298ddd.chunk.js": "/far/static/js/2.69298ddd.chunk.js",
+    "static/js/2.69298ddd.chunk.js.map": "/far/static/js/2.69298ddd.chunk.js.map",
     "index.html": "/far/index.html",
-    "precache-manifest.557fa9da0e767f3185a28aaed5bec9aa.js": "/far/precache-manifest.557fa9da0e767f3185a28aaed5bec9aa.js",
+    "precache-manifest.222a733b324f6d9427a88ae9fefee73e.js": "/far/precache-manifest.222a733b324f6d9427a88ae9fefee73e.js",
     "service-worker.js": "/far/service-worker.js",
     "static/css/2.1a5b40eb.chunk.css.map": "/far/static/css/2.1a5b40eb.chunk.css.map",
-    "static/css/main.19a7baec.chunk.css.map": "/far/static/css/main.19a7baec.chunk.css.map",
-    "static/js/2.0fe350a6.chunk.js.LICENSE.txt": "/far/static/js/2.0fe350a6.chunk.js.LICENSE.txt",
+    "static/css/main.968fcb44.chunk.css.map": "/far/static/css/main.968fcb44.chunk.css.map",
+    "static/js/2.69298ddd.chunk.js.LICENSE.txt": "/far/static/js/2.69298ddd.chunk.js.LICENSE.txt",
     "static/media/clean-code.svg": "/far/static/media/clean-code.78f5a48e.svg",
     "static/media/fold.svg": "/far/static/media/fold.7947934a.svg",
     "static/media/gear.svg": "/far/static/media/gear.747f285d.svg",
@@ -23,14 +23,15 @@
     "static/media/micro-blog.svg": "/far/static/media/micro-blog.36b2e0d3.svg",
     "static/media/myself.jpg": "/far/static/media/myself.74b215bc.jpg",
     "static/media/open-source.svg": "/far/static/media/open-source.80464675.svg",
+    "static/media/Category.css": "/far/static/media/open.31c5bb28.svg",
     "static/media/thought.svg": "/far/static/media/thought.da51f7d8.svg",
     "static/media/we-chat.svg": "/far/static/media/we-chat.f05eba1e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.85f1febd.js",
     "static/css/2.1a5b40eb.chunk.css",
-    "static/js/2.0fe350a6.chunk.js",
-    "static/css/main.19a7baec.chunk.css",
-    "static/js/main.43fb35ee.chunk.js"
+    "static/js/2.69298ddd.chunk.js",
+    "static/css/main.968fcb44.chunk.css",
+    "static/js/main.33633344.chunk.js"
   ]
 }
