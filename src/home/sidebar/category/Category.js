@@ -1,11 +1,9 @@
 import React from 'react';
 import './Category.css';
 import gear from './gear.svg';
-import fold from './fold.svg';
 import thought from './thought.svg';
 import cleanCode from './clean-code.svg';
 import openSource from './open-source.svg';
-import open from './gear.svg';
 
 class Category extends React.Component {
   constructor(props) {
