@@ -1,29 +1,52 @@
+.category {
+  max-height: 450px;
+  overflow: scroll;
+}
 .fold {
   right: 50px;
   margin-top: 5px;
   position: absolute;
 }
-.nav-max-height {
-  max-height: 450px;
-  overflow: scroll;
-}
-details summary:hover {
-  background-color: #f8f9fa;
-  font-weight: 700;
-}
-details summary {
-  list-style-image: none;
-  outline: none;
+
+details {
   position: relative;
 }
 
-summary::-webkit-details-marker {
-  background: none;
-  color: transparent;
+details > summary {
+  outline: none;
+  font-size: 1.15em;
+  padding-left: 12%;
+}
+
+details > summary:hover {
+  background-color: #f8f9fa;
+  font-weight: 700;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary:after {
+  content: url(./fold.svg);
+  font-size: 10px;
+  text-align: center;
+  width: 12px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  padding-right: 15%;
+}
+
+details[open] > summary:after {
+  content: url(./open.svg);
 }
 
 details p {
-  padding-left: 65px;
+  padding: 1px 0px 1px 25%;
   cursor: pointer;
   font-size: 13px;
+}
+
+details p:hover {
+  background-color: #f8f9fa;
 }
