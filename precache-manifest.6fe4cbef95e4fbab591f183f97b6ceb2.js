@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "237efe1b6991a20c08e71ea5f6a592fc",
+    "revision": "45b4ab26ed4c4f5689ee7ad4a6471e54",
     "url": "/far/index.html"
   },
   {
-    "revision": "1ab9bbe7d77d36f02d8c",
+    "revision": "476881b58d8ddfdcfdc4",
     "url": "/far/static/css/2.1a5b40eb.chunk.css"
   },
   {
-    "revision": "2a1ec965af89e682d325",
-    "url": "/far/static/css/main.968fcb44.chunk.css"
+    "revision": "2d9b85c9a52423eb9f0d",
+    "url": "/far/static/css/main.694067a4.chunk.css"
   },
   {
-    "revision": "1ab9bbe7d77d36f02d8c",
-    "url": "/far/static/js/2.69298ddd.chunk.js"
+    "revision": "476881b58d8ddfdcfdc4",
+    "url": "/far/static/js/2.ad8d2ab0.chunk.js"
   },
   {
     "revision": "76fd5ab146b0d8fb7b899b4b882f747e",
-    "url": "/far/static/js/2.69298ddd.chunk.js.LICENSE.txt"
+    "url": "/far/static/js/2.ad8d2ab0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a1ec965af89e682d325",
-    "url": "/far/static/js/main.33633344.chunk.js"
+    "revision": "2d9b85c9a52423eb9f0d",
+    "url": "/far/static/js/main.153584df.chunk.js"
   },
   {
     "revision": "47fd5d79045094fbd99d",
@@ -52,6 +52,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/media/location.11469798.svg"
   },
   {
+    "revision": "4cb3a89021055551cf7c85dc5e6e39df",
+    "url": "/far/static/media/login.4cb3a890.svg"
+  },
+  {
+    "revision": "4899874ed26cd75bbe11450efa489c7c",
+    "url": "/far/static/media/logo.4899874e.svg"
+  },
+  {
     "revision": "36b2e0d34465ecc79e8b0f9073b31e02",
     "url": "/far/static/media/micro-blog.36b2e0d3.svg"
   },
@@ -66,6 +74,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "31c5bb28b8ed35d5f802d9c87b8ad6f2",
     "url": "/far/static/media/open.31c5bb28.svg"
+  },
+  {
+    "revision": "6105adbe7f312d2b857895b70c850e6b",
+    "url": "/far/static/media/search-btn.6105adbe.svg"
+  },
+  {
+    "revision": "32c1c34c175df0e08112210e30f89972",
+    "url": "/far/static/media/sign-up.32c1c34c.svg"
   },
   {
     "revision": "da51f7d8e813f5397fd6691556f92312",
