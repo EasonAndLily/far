@@ -1,7 +1,23 @@
 .headline {
-  height: 380px;
+  height: 360px;
 }
 
 .headline-poster {
   height: 220px;
+}
+
+.abstract {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+@media (max-width: 440px) {
+  .headline {
+    height: 290px;
+  }
+  .headline-poster {
+    height: 150px;
+  }
 }

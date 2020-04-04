@@ -26,7 +26,7 @@ function Headline() {
             {blog.title}
           </a>
         </h5>
-        <p class="card-text">{blog.abstract}</p>
+        <p class="card-text abstract">{blog.abstract}</p>
         <a href="#" class="btn btn-primary mt-2 btn-sm">
           阅读更多
         </a>
