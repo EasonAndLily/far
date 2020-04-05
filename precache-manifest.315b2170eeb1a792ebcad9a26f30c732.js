@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c322f537062ca744a0db5e3091705845",
+    "revision": "6416d46ce0ec0e0fa579283c7bfa45c2",
     "url": "/far/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/css/2.1a5b40eb.chunk.css"
   },
   {
-    "revision": "b345936223c8d9d64ed5",
+    "revision": "6dbbf11703407ce4a73b",
     "url": "/far/static/css/main.c553fc33.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/js/2.57817226.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b345936223c8d9d64ed5",
-    "url": "/far/static/js/main.c12179af.chunk.js"
+    "revision": "6dbbf11703407ce4a73b",
+    "url": "/far/static/js/main.e463807d.chunk.js"
   },
   {
     "revision": "47fd5d79045094fbd99d",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/media/github.e6f791f7.svg"
   },
   {
-    "revision": "eb2e3338ef2459789bf08188bc22fe61",
-    "url": "/far/static/media/gitlab.eb2e3338.svg"
+    "revision": "921398b20940921bbf60c82e7f28a668",
+    "url": "/far/static/media/gitlab.921398b2.svg"
   },
   {
     "revision": "11469798e7a08424a12c092f56df0302",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/media/logo.4899874e.svg"
   },
   {
-    "revision": "36b2e0d34465ecc79e8b0f9073b31e02",
-    "url": "/far/static/media/micro-blog.36b2e0d3.svg"
+    "revision": "5c7b8bf25e2e7cd0b7e3374769d64bf2",
+    "url": "/far/static/media/micro-blog.5c7b8bf2.svg"
   },
   {
     "revision": "74b215bcb9a0ae67f038b68bffcba740",
@@ -88,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/media/thought.da51f7d8.svg"
   },
   {
-    "revision": "f05eba1e26829132a5ba2d8e52424074",
-    "url": "/far/static/media/we-chat.f05eba1e.svg"
+    "revision": "b3982c1adab7fcff13fae9fd016ae922",
+    "url": "/far/static/media/we-chat.b3982c1a.svg"
   }
 ]);
