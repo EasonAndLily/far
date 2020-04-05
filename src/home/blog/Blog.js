@@ -6,12 +6,14 @@ function Blog() {
     <section className="col opacity-9">
       <Headline></Headline>
       <div className="mt-3 bg-white shadow rounded">
-        <p className="h6 btn btn-link font-weight-bold mb-0">
-          编程语言基础教程
+        <p className="h6 font-weight-bold mb-0 p-1">
+          <a href="##" className="text-dark">
+            编程语言基础教程
+          </a>
         </p>
         <nav className="nav nav-tabs" id="nav-tab" role="tablist">
           <a
-            className="nav-item nav-link active font-weight-bold"
+            className="nav-item nav-link active font-weight-bold text-dark pl-2 pr-2 pt-1 pb-1 pl-md-4 pr-md-4 pt-md-2 pb-md-2"
             id="latest-tab"
             data-toggle="tab"
             href="#latest"
@@ -21,7 +23,7 @@ function Blog() {
             最新
           </a>
           <a
-            className="nav-item nav-link font-weight-bold"
+            className="nav-item nav-link font-weight-bold text-dark pl-2 pr-2 pt-1 pb-1 pl-md-4 pr-md-4 pt-md-2 pb-md-2"
             id="nav-profile-tab"
             data-toggle="tab"
             href="#nav-profile"
@@ -31,7 +33,7 @@ function Blog() {
             Java
           </a>
           <a
-            className="nav-item nav-link font-weight-bold"
+            className="nav-item nav-link font-weight-bold text-dark pl-2 pr-2 pt-1 pb-1 pl-md-4 pr-md-4 pt-md-2 pb-md-2"
             id="nav-contact-tab"
             data-toggle="tab"
             href="#nav-contact"
@@ -41,7 +43,7 @@ function Blog() {
             JavaScript
           </a>
           <a
-            className="nav-item nav-link font-weight-bold"
+            className="nav-item nav-link font-weight-bold text-dark pl-2 pr-2 pt-1 pb-1 pl-md-4 pr-md-4 pt-md-2 pb-md-2"
             id="nav-contact-tab"
             data-toggle="tab"
             href="#nav-contact"
@@ -51,7 +53,7 @@ function Blog() {
             Python
           </a>
         </nav>
-        <div className="tab-content" id="nav-tabContent">
+        <div className="tab-content p-1" id="nav-tabContent">
           <div
             className="tab-pane active container"
             id="latest"
@@ -67,7 +69,7 @@ function Blog() {
                     height="90px"></img>
                   <div class="card-body pt-0 p-1">
                     <h5 class="card-title mb-0">
-                      <a href="##" className="card-link">
+                      <a href="##" className="text-dark">
                         Card title
                       </a>
                     </h5>
@@ -75,7 +77,7 @@ function Blog() {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="##" class="btn btn-primary btn-sm">
+                    <a href="##" class="btn btn-outline-dark btn-sm mt-1">
                       开始学习
                     </a>
                   </div>
@@ -90,7 +92,7 @@ function Blog() {
                     height="90px"></img>
                   <div class="card-body pt-0 p-1">
                     <h5 class="card-title mb-0">
-                      <a href="##" className="card-link">
+                      <a href="##" className="text-dark">
                         Card title
                       </a>
                     </h5>
@@ -98,7 +100,7 @@ function Blog() {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="##" class="btn btn-primary btn-sm">
+                    <a href="##" class="btn btn-outline-dark btn-sm mt-1">
                       开始学习
                     </a>
                   </div>
@@ -113,7 +115,7 @@ function Blog() {
                     height="90px"></img>
                   <div class="card-body pt-0 p-1">
                     <h5 class="card-title mb-0">
-                      <a href="##" className="card-link">
+                      <a href="##" className="text-dark">
                         Card title
                       </a>
                     </h5>
@@ -121,7 +123,7 @@ function Blog() {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="##" class="btn btn-primary btn-sm">
+                    <a href="##" class="btn btn-outline-dark btn-sm mt-1">
                       开始学习
                     </a>
                   </div>
@@ -136,7 +138,7 @@ function Blog() {
                     height="90px"></img>
                   <div class="card-body pt-0 p-1">
                     <h5 class="card-title mb-0">
-                      <a href="##" className="card-link">
+                      <a href="##" className="text-dark">
                         Card title
                       </a>
                     </h5>
@@ -144,7 +146,7 @@ function Blog() {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="##" class="btn btn-primary btn-sm">
+                    <a href="##" class="btn btn-outline-dark btn-sm mt-1">
                       开始学习
                     </a>
                   </div>

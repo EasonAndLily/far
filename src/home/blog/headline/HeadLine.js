@@ -22,13 +22,13 @@ function Headline() {
 
       <div class="card-body pb-1 pt-1">
         <h5 class="card-title m-0">
-          <a href="#" class="card-link">
+          <a href="#" class="card-link text-dark">
             {blog.title}
           </a>
         </h5>
         <p class="card-text abstract">{blog.abstract}</p>
-        <a href="#" class="btn btn-primary mt-2 btn-sm">
-          阅读更多
+        <a href="#" class="btn btn-outline-dark mt-2 btn-sm">
+          开始学习
         </a>
       </div>
     </header>
