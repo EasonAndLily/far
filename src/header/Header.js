@@ -7,7 +7,7 @@ import signUp from './sign-up.svg';
 
 function Header() {
   return (
-    <header className="bg-white shadow opacity-9">
+    <header className="bg-white shadow opacity-9 navbar-fixed-top">
       <nav className="container navbar navbar-expand-lg navbar-light bg-white">
         <a className="navbar-brand" href="#">
           <img src={logo} alt="logo" />
