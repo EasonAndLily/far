@@ -8,47 +8,35 @@ import signUp from './sign-up.svg';
 function Header() {
   return (
     <header className="bg-white shadow opacity-9 navbar-fixed-top">
-      <nav className="container navbar navbar-expand-lg navbar-light bg-white">
-        <a className="navbar-brand" href="#">
-          <img src={logo} alt="logo" />
-          致远学堂
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div
-          className="collapse navbar-collapse row justify-content-end"
-          id="navbarSupportedContent">
-          <div className="col-10 row justify-content-end pr-0">
-            <input
-              className="search-input"
-              type="search"
-              placeholder="输入内容检索关键字"
-            />
-            <button className="btn btn-sm search-btn" type="submit">
-              <img src={searchBtn} alt="Search"></img>
-            </button>
+      <nav className="container navbar navbar-expand-lg navbar-light bg-white p-0">
+        <div className="row flex-fill">
+          <div className="col-2 ml-2">
+            <a className="navbar-brand" href="##">
+              <img src={logo} alt="logo" />
+              致远学堂
+            </a>
           </div>
-          <ul class="navbar-nav col-2 justify-content-end pr-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
+
+          <div className="col-10 row justify-content-end pt-1">
+            <div className="col-10 row justify-content-end">
+              <input
+                className="search-input"
+                type="search"
+                placeholder="输入内容检索关键字"
+              />
+              <button className="btn btn-sm search-btn" type="submit">
+                <img src={searchBtn} alt="Search"></img>
+              </button>
+            </div>
+            <div className="col-2 pr-0 d-none d-sm-block pt-2 text-right">
+              <a className="m-2" href="##">
                 <img src={signUp} alt="sign up"></img>
               </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <a className="m-2" href="##">
                 <img src={login} alt="login"></img>
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </nav>
     </header>

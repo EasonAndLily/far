@@ -5,7 +5,7 @@ import Blog from './blog/Blog';
 
 function Home() {
   return (
-    <main className="container mt-5 pt-5">
+    <main className="container mt-5 pt-4">
       <article className="row">
         <Sidebar></Sidebar>
         <Blog></Blog>
