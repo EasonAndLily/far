@@ -1,7 +1,19 @@
 .category {
   max-height: 450px;
-  overflow: scroll;
+  overflow: auto;
 }
+
+.category::-webkit-scrollbar {
+  width: 5px;
+  background-color: inherit;
+  margin-right: 5px;
+}
+
+.category::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #c1c1c1;
+}
+
 .fold {
   right: 50px;
   margin-top: 5px;

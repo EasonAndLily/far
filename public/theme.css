@@ -4,13 +4,18 @@ body {
   height: 100%;
   margin: 0;
   overflow: auto;
+  scrollbar-color: #c1c1c1 #f8f9fa;
   font-family: STXingkai, STKaiti, Arial, Helvetica, sans-serif !important;
 }
 
-body {
-  background: url('./bg.jpeg') no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: inherit;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #c1c1c1;
 }
 
 main {
