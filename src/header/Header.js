@@ -18,7 +18,7 @@ function Header() {
           </div>
 
           <div className="col-10 row justify-content-end pt-1">
-            <div className="col-10 row justify-content-end mr-2">
+            <div className="col-sm-10 row justify-content-end mr-2">
               <input
                 className="search-input"
                 type="search"
@@ -28,7 +28,7 @@ function Header() {
                 <img src={searchBtn} alt="Search"></img>
               </button>
             </div>
-            <div className="col-2 pr-0 d-none d-sm-block pt-2 text-right">
+            <div className="col-sm-2 pr-0 d-none d-sm-block pt-2 text-right">
               <a className="m-2" href="##">
                 <img src={signUp} alt="sign up"></img>
               </a>
