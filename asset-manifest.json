@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/far/static/css/main.1d000292.chunk.css",
-    "main.js": "/far/static/js/main.931481b6.chunk.js",
-    "main.js.map": "/far/static/js/main.931481b6.chunk.js.map",
+    "main.css": "/far/static/css/main.5b50fdf8.chunk.css",
+    "main.js": "/far/static/js/main.e7644984.chunk.js",
+    "main.js.map": "/far/static/js/main.e7644984.chunk.js.map",
     "runtime-main.js": "/far/static/js/runtime-main.85f1febd.js",
     "runtime-main.js.map": "/far/static/js/runtime-main.85f1febd.js.map",
-    "static/css/2.1a5b40eb.chunk.css": "/far/static/css/2.1a5b40eb.chunk.css",
-    "static/js/2.57817226.chunk.js": "/far/static/js/2.57817226.chunk.js",
-    "static/js/2.57817226.chunk.js.map": "/far/static/js/2.57817226.chunk.js.map",
+    "static/css/2.de424728.chunk.css": "/far/static/css/2.de424728.chunk.css",
+    "static/js/2.1038c842.chunk.js": "/far/static/js/2.1038c842.chunk.js",
+    "static/js/2.1038c842.chunk.js.map": "/far/static/js/2.1038c842.chunk.js.map",
     "index.html": "/far/index.html",
-    "precache-manifest.b6350b699d155b03000f445dec234494.js": "/far/precache-manifest.b6350b699d155b03000f445dec234494.js",
+    "precache-manifest.4fb6cd14e2080649bb9df053cd5883aa.js": "/far/precache-manifest.4fb6cd14e2080649bb9df053cd5883aa.js",
     "service-worker.js": "/far/service-worker.js",
-    "static/css/2.1a5b40eb.chunk.css.map": "/far/static/css/2.1a5b40eb.chunk.css.map",
-    "static/css/main.1d000292.chunk.css.map": "/far/static/css/main.1d000292.chunk.css.map",
-    "static/js/2.57817226.chunk.js.LICENSE.txt": "/far/static/js/2.57817226.chunk.js.LICENSE.txt",
+    "static/css/2.de424728.chunk.css.map": "/far/static/css/2.de424728.chunk.css.map",
+    "static/css/main.5b50fdf8.chunk.css.map": "/far/static/css/main.5b50fdf8.chunk.css.map",
+    "static/js/2.1038c842.chunk.js.LICENSE.txt": "/far/static/js/2.1038c842.chunk.js.LICENSE.txt",
     "static/media/clean-code.svg": "/far/static/media/clean-code.78f5a48e.svg",
     "static/media/Category.css": "/far/static/media/open.31c5bb28.svg",
     "static/media/gear.svg": "/far/static/media/gear.747f285d.svg",
@@ -31,9 +31,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.85f1febd.js",
-    "static/css/2.1a5b40eb.chunk.css",
-    "static/js/2.57817226.chunk.js",
-    "static/css/main.1d000292.chunk.css",
-    "static/js/main.931481b6.chunk.js"
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.1038c842.chunk.js",
+    "static/css/main.5b50fdf8.chunk.css",
+    "static/js/main.e7644984.chunk.js"
   ]
 }
