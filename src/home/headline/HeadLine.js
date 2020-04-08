@@ -12,7 +12,7 @@ let blog = {
 function Headline() {
   return (
     <header className="card bg-white shadow headline">
-      <a href="/detail">
+      <a href="/far/detail">
         <img
           src={blog.poster}
           className="card-img-top headline-poster"
@@ -22,12 +22,12 @@ function Headline() {
 
       <div class="card-body p-2">
         <h5 class="card-title m-0">
-          <a href="/detail" class="card-link text-dark">
+          <a href="/far/detail" class="card-link text-dark">
             {blog.title}
           </a>
         </h5>
         <p class="card-text abstract m-0">{blog.abstract}</p>
-        <a href="/detail" class="btn btn-outline-dark mt-2 btn-sm">
+        <a href="/far/detail" class="btn btn-outline-dark mt-2 btn-sm">
           开始学习
         </a>
       </div>

@@ -18,10 +18,10 @@ ReactDOM.render(
         <Sidebar></Sidebar>
         <Router>
           <Switch>
-            <Route path="/detail">
+            <Route path="/far/detail">
               <Detail></Detail>
             </Route>
-            <Route path="/">
+            <Route path="/far">
               <Home />
             </Route>
           </Switch>
