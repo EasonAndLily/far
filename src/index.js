@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Sidebar from './sidebar/Sidebar';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Detail from './detail/detail';
 
 ReactDOM.render(
@@ -16,12 +16,12 @@ ReactDOM.render(
     <main className="container mt-5 pt-4">
       <article className="row">
         <Sidebar></Sidebar>
-        <Router>
+        <Router basename="/">
           <Switch>
-            <Route path="/far/detail">
+            <Route path="/detail">
               <Detail></Detail>
             </Route>
-            <Route path="/far">
+            <Route path="/">
               <Home />
             </Route>
           </Switch>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Headline.css';
+import { Link } from 'react-router-dom';
 
 let blog = {
   poster:
@@ -12,24 +13,24 @@ let blog = {
 function Headline() {
   return (
     <header className="card bg-white shadow headline">
-      <a href="/far/detail">
+      <Link to="/detail">
         <img
           src={blog.poster}
           className="card-img-top headline-poster"
           alt="..."
         />
-      </a>
+      </Link>
 
-      <div class="card-body p-2">
-        <h5 class="card-title m-0">
-          <a href="/far/detail" class="card-link text-dark">
+      <div className="card-body p-2">
+        <h5 className="card-title m-0">
+          <Link to="/detail" className="card-link text-dark">
             {blog.title}
-          </a>
+          </Link>
         </h5>
-        <p class="card-text abstract m-0">{blog.abstract}</p>
-        <a href="/far/detail" class="btn btn-outline-dark mt-2 btn-sm">
+        <p className="card-text abstract m-0">{blog.abstract}</p>
+        <Link to="/detail" className="btn btn-outline-dark mt-2 btn-sm">
           开始学习
-        </a>
+        </Link>
       </div>
     </header>
   );
