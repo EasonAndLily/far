@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/far/static/css/main.71002b29.chunk.css",
-    "main.js": "/far/static/js/main.47e399ea.chunk.js",
-    "main.js.map": "/far/static/js/main.47e399ea.chunk.js.map",
+    "main.css": "/far/static/css/main.1d000292.chunk.css",
+    "main.js": "/far/static/js/main.63af729d.chunk.js",
+    "main.js.map": "/far/static/js/main.63af729d.chunk.js.map",
     "runtime-main.js": "/far/static/js/runtime-main.85f1febd.js",
     "runtime-main.js.map": "/far/static/js/runtime-main.85f1febd.js.map",
     "static/css/2.1a5b40eb.chunk.css": "/far/static/css/2.1a5b40eb.chunk.css",
     "static/js/2.57817226.chunk.js": "/far/static/js/2.57817226.chunk.js",
     "static/js/2.57817226.chunk.js.map": "/far/static/js/2.57817226.chunk.js.map",
     "index.html": "/far/index.html",
-    "precache-manifest.30b8e9b7d4f8a75b5eaf23237d24d4da.js": "/far/precache-manifest.30b8e9b7d4f8a75b5eaf23237d24d4da.js",
+    "precache-manifest.812f7b1c03cf5ebe6eb81390aec1caac.js": "/far/precache-manifest.812f7b1c03cf5ebe6eb81390aec1caac.js",
     "service-worker.js": "/far/service-worker.js",
     "static/css/2.1a5b40eb.chunk.css.map": "/far/static/css/2.1a5b40eb.chunk.css.map",
-    "static/css/main.71002b29.chunk.css.map": "/far/static/css/main.71002b29.chunk.css.map",
+    "static/css/main.1d000292.chunk.css.map": "/far/static/css/main.1d000292.chunk.css.map",
     "static/js/2.57817226.chunk.js.LICENSE.txt": "/far/static/js/2.57817226.chunk.js.LICENSE.txt",
     "static/media/clean-code.svg": "/far/static/media/clean-code.78f5a48e.svg",
     "static/media/Category.css": "/far/static/media/open.31c5bb28.svg",
@@ -21,7 +21,6 @@
     "static/media/gitlab.svg": "/far/static/media/gitlab.921398b2.svg",
     "static/media/location.svg": "/far/static/media/location.11469798.svg",
     "static/media/login.svg": "/far/static/media/login.4cb3a890.svg",
-    "static/media/logo.svg": "/far/static/media/logo.4899874e.svg",
     "static/media/micro-blog.svg": "/far/static/media/micro-blog.5c7b8bf2.svg",
     "static/media/myself.jpg": "/far/static/media/myself.74b215bc.jpg",
     "static/media/open-source.svg": "/far/static/media/open-source.80464675.svg",
@@ -34,7 +33,7 @@
     "static/js/runtime-main.85f1febd.js",
     "static/css/2.1a5b40eb.chunk.css",
     "static/js/2.57817226.chunk.js",
-    "static/css/main.71002b29.chunk.css",
-    "static/js/main.47e399ea.chunk.js"
+    "static/css/main.1d000292.chunk.css",
+    "static/js/main.63af729d.chunk.js"
   ]
 }
