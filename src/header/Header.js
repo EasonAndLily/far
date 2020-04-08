@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from './logo.svg';
+import logo from './logo.png';
 import searchBtn from './search-btn.svg';
 import login from './login.svg';
 import signUp from './sign-up.svg';
@@ -12,13 +12,13 @@ function Header() {
         <div className="row flex-fill">
           <div className="col-2 ml-2">
             <a className="navbar-brand" href="##">
-              <img src={logo} alt="logo" />
-              致远学堂
+              <img src={logo} alt="logo" className="logo ml-1 mr-2" />
+              <span className="d-none d-sm-inline-block">捷登社区</span>
             </a>
           </div>
 
           <div className="col-10 row justify-content-end pt-1">
-            <div className="col-10 row justify-content-end">
+            <div className="col-10 row justify-content-end mr-2">
               <input
                 className="search-input"
                 type="search"
