@@ -1,5 +1,5 @@
 .headline {
-  height: 360px;
+  height: 375px;
 }
 
 .headline-poster {
@@ -15,7 +15,7 @@
 
 @media (max-width: 440px) {
   .headline {
-    height: 290px;
+    height: 300px;
   }
   .headline-poster {
     height: 150px;
