@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import './detail.css';
 
 let blog = {
   poster:
@@ -244,6 +245,35 @@ function Detail() {
 
         <div className="card-body p-2">
           <ReactMarkdown source={blog.description}></ReactMarkdown>
+        </div>
+        <div className="card-footer">
+          <ul className="list-inline m-0 d-flex justify-content-end">
+            <li className="list-inline-item">
+              <button
+                type="button"
+                class="p-0 btn btn-default btn-image update-time"
+                disabled>
+                两天前
+              </button>
+            </li>
+            <li className="list-inline-item">
+              <button
+                type="button"
+                class="p-0 btn btn-default btn-image thumds-up">
+                12344
+              </button>
+            </li>
+            <li className="list-inline-item">
+              <button
+                type="button"
+                className="p-0 btn btn-default btn-image share"></button>
+            </li>
+            <li className="list-inline-item">
+              <button
+                type="button"
+                className="p-0 btn btn-default btn-image comment"></button>
+            </li>
+          </ul>
         </div>
       </header>
     </section>
