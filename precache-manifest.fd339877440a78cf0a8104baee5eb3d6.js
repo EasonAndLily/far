@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41e6ed2eda5eed3a5a6444a0fdef2df7",
+    "revision": "b54d38915cb90dca47b6f57864b29ca3",
     "url": "/far/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "f48bebe5bf907fc5cbba",
-    "url": "/far/static/css/main.5b50fdf8.chunk.css"
+    "revision": "6246f9c4ab12d33d5336",
+    "url": "/far/static/css/main.c7474412.chunk.css"
   },
   {
     "revision": "b45ee0a92a7908f2248a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/js/2.ae2ba477.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f48bebe5bf907fc5cbba",
-    "url": "/far/static/js/main.20f3d956.chunk.js"
+    "revision": "6246f9c4ab12d33d5336",
+    "url": "/far/static/js/main.8fb0fe6e.chunk.js"
   },
   {
     "revision": "47fd5d79045094fbd99d",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78f5a48e6c60ca1d052bf8595dcc9391",
     "url": "/far/static/media/clean-code.78f5a48e.svg"
+  },
+  {
+    "revision": "39918b9795cf19674c2e25c292e69695",
+    "url": "/far/static/media/comment.39918b97.svg"
   },
   {
     "revision": "7947934a3aad33fa8140f72835364e1a",
@@ -76,12 +80,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/media/search-btn.6105adbe.svg"
   },
   {
+    "revision": "19cb942a66e03b2508f3041836e1a901",
+    "url": "/far/static/media/share.19cb942a.svg"
+  },
+  {
     "revision": "32c1c34c175df0e08112210e30f89972",
     "url": "/far/static/media/sign-up.32c1c34c.svg"
   },
   {
     "revision": "da51f7d8e813f5397fd6691556f92312",
     "url": "/far/static/media/thought.da51f7d8.svg"
+  },
+  {
+    "revision": "4a5c7ce012cbfec0eb03523568d84b3e",
+    "url": "/far/static/media/thumbs_up.4a5c7ce0.svg"
+  },
+  {
+    "revision": "f2e0ed690d8c576db959f3a7a97ce952",
+    "url": "/far/static/media/update_time.f2e0ed69.svg"
   },
   {
     "revision": "b3982c1adab7fcff13fae9fd016ae922",
