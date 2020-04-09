@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b54d38915cb90dca47b6f57864b29ca3",
+    "revision": "9757f6c3165ec5ec7f5e65550896f201",
     "url": "/far/index.html"
   },
   {
-    "revision": "b45ee0a92a7908f2248a",
+    "revision": "bbf63cc1856bda7b8a40",
     "url": "/far/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "6246f9c4ab12d33d5336",
-    "url": "/far/static/css/main.c7474412.chunk.css"
+    "revision": "290630fab69a9cc30078",
+    "url": "/far/static/css/main.c1a1bfc2.chunk.css"
   },
   {
-    "revision": "b45ee0a92a7908f2248a",
-    "url": "/far/static/js/2.ae2ba477.chunk.js"
+    "revision": "bbf63cc1856bda7b8a40",
+    "url": "/far/static/js/2.09a2a54d.chunk.js"
   },
   {
     "revision": "ab3d71d467afa7d68dac61e051c3c7b9",
-    "url": "/far/static/js/2.ae2ba477.chunk.js.LICENSE.txt"
+    "url": "/far/static/js/2.09a2a54d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6246f9c4ab12d33d5336",
-    "url": "/far/static/js/main.8fb0fe6e.chunk.js"
+    "revision": "290630fab69a9cc30078",
+    "url": "/far/static/js/main.8dc62a99.chunk.js"
   },
   {
     "revision": "47fd5d79045094fbd99d",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "921398b20940921bbf60c82e7f28a668",
     "url": "/far/static/media/gitlab.921398b2.svg"
+  },
+  {
+    "revision": "6187026052ff397c3c9c12aa54783afb",
+    "url": "/far/static/media/java-course-bg.61870260.jpg"
   },
   {
     "revision": "11469798e7a08424a12c092f56df0302",
