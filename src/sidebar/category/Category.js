@@ -4,6 +4,7 @@ import gear from './gear.svg';
 import thought from './thought.svg';
 import cleanCode from './clean-code.svg';
 import openSource from './open-source.svg';
+import { Link } from 'react-router-dom';
 
 class Category extends React.Component {
   constructor(props) {
@@ -68,9 +69,9 @@ class Category extends React.Component {
         </summary>
         {item.subTitles.map((sub) => (
           <p>
-            <a href="##" className="text-dark">
+            <Link to="/course" className="text-dark">
               {sub}
-            </a>
+            </Link>
           </p>
         ))}
       </details>

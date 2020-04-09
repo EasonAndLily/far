@@ -1,0 +1,7 @@
+.jumbotron-bg {
+  background: url('./java-course-bg.jpg') rgba(105, 103, 103, 0.9);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0.5px);
+}

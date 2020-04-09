@@ -9,17 +9,21 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Sidebar from './sidebar/Sidebar';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Detail from './detail/detail';
+import Course from './course/Course';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header></Header>
     <main className="container mt-5 pt-4">
       <article className="row">
-        <Sidebar></Sidebar>
         <Router basename="/">
+          <Sidebar></Sidebar>
           <Switch>
             <Route path="/detail">
               <Detail></Detail>
+            </Route>
+            <Route path="/course">
+              <Course></Course>
             </Route>
             <Route path="/">
               <Home />
