@@ -1,5 +1,7 @@
-.jumbotron-bg {
-  background: url('./java-course-bg.jpg') rgba(105, 103, 103, 0.9);
+.course-bg {
+  /* background: url('./java-course-bg.jpg') rgba(105, 103, 103, 0.9); */
+  background: url('https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/sculpture.jpg')
+    rgba(105, 103, 103, 0.9);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,4 +18,13 @@
 .course-attr li:not(:first-child)::before {
   padding: 2px 5px 2px 5px;
   content: '|';
+}
+
+.you-will-get {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.you-will-get li::before {
+  content: '☑️';
 }
