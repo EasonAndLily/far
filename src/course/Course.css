@@ -28,3 +28,7 @@
 .you-will-get li::before {
   content: '☑️';
 }
+
+.text-min {
+  font-size: 12px;
+}
