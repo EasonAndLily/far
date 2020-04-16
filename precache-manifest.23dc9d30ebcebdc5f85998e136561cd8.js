@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b85a0a730924a9dc9022a95138b1664",
+    "revision": "820df5bd7aa062f81bc4a37df16a324a",
     "url": "/far/index.html"
   },
   {
-    "revision": "bbf63cc1856bda7b8a40",
+    "revision": "902e8858674ff91c1d6c",
     "url": "/far/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "b9f9e8508b09e93ce953",
-    "url": "/far/static/css/main.6b6caec4.chunk.css"
+    "revision": "19ea5961df1f6ee20419",
+    "url": "/far/static/css/main.160107f2.chunk.css"
   },
   {
-    "revision": "bbf63cc1856bda7b8a40",
-    "url": "/far/static/js/2.09a2a54d.chunk.js"
+    "revision": "902e8858674ff91c1d6c",
+    "url": "/far/static/js/2.7c90b351.chunk.js"
   },
   {
     "revision": "ab3d71d467afa7d68dac61e051c3c7b9",
-    "url": "/far/static/js/2.09a2a54d.chunk.js.LICENSE.txt"
+    "url": "/far/static/js/2.7c90b351.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9f9e8508b09e93ce953",
-    "url": "/far/static/js/main.2ff5b1bc.chunk.js"
+    "revision": "19ea5961df1f6ee20419",
+    "url": "/far/static/js/main.ccb49f8d.chunk.js"
   },
   {
     "revision": "47fd5d79045094fbd99d",
     "url": "/far/static/js/runtime-main.85f1febd.js"
+  },
+  {
+    "revision": "caaaae3d458d1391bcc89a0780e89b57",
+    "url": "/far/static/media/baby.caaaae3d.svg"
   },
   {
     "revision": "78f5a48e6c60ca1d052bf8595dcc9391",
@@ -52,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far/static/media/gitlab.921398b2.svg"
   },
   {
-    "revision": "6187026052ff397c3c9c12aa54783afb",
-    "url": "/far/static/media/java-course-bg.61870260.jpg"
+    "revision": "925d7470e93dd2a477539b5e422d9806",
+    "url": "/far/static/media/gradfather.925d7470.svg"
   },
   {
     "revision": "11469798e7a08424a12c092f56df0302",
@@ -90,6 +94,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "32c1c34c175df0e08112210e30f89972",
     "url": "/far/static/media/sign-up.32c1c34c.svg"
+  },
+  {
+    "revision": "4599b6c2961002fbfb1fcc9c1ad22e16",
+    "url": "/far/static/media/student.4599b6c2.svg"
+  },
+  {
+    "revision": "9885c4555fc075e335aaf3c461d29216",
+    "url": "/far/static/media/teenager.9885c455.svg"
   },
   {
     "revision": "da51f7d8e813f5397fd6691556f92312",
