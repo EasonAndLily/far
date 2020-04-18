@@ -19,45 +19,29 @@ let growthPath = [
     title: '第一步：1周',
     name: '入门Java基础语法',
     image: baby,
-    content: [
-      '初识Java开发环境',
-      '掌握Java如何定义变量',
-      '掌握Java三种语法结构',
-      '知道Java如何定义函数',
-    ],
+    brief:
+      '此阶段将为你你打造高效的Java开发环境，学会使用Java开发利器，初识Java基础语法',
   },
   {
     title: '第二步：2周',
     name: '初识面向对象编程',
     image: teenager,
-    content: [
-      '掌握面向对象基本语法',
-      '理解面向对象基本思维',
-      '应用面向对象的方式解决实际问题',
-      '掌握常见的设计模式',
-    ],
+    brief:
+      '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
   },
   {
     title: '第三步：2周',
     name: 'Java基础语法进阶',
     image: student,
-    content: [
-      '初识集合与映射',
-      '理解泛型',
-      '了解反射基本概念',
-      '知道Java如何定义函数',
-    ],
+    brief:
+      '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
   },
   {
     title: '第四步：2周',
     name: 'Java8 API',
     image: gradfather,
-    content: [
-      '了解Stream API',
-      '掌握集合的Steam操作',
-      '理解lambda表达式与函数式接口',
-      '掌握Optional',
-    ],
+    brief:
+      '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
   },
 ];
 
@@ -316,13 +300,7 @@ function Course() {
                 <img src={item.image} alt="..." />
                 <div className="card-body pt-2">
                   <h6 className="card-title">{item.name}</h6>
-                  <p className="card-text">
-                    <ul className="font-12 text-left pl-2 ml-3">
-                      {item.content.map((ele) => (
-                        <li>{ele}</li>
-                      ))}
-                    </ul>
-                  </p>
+                  <p className="card-text font-12">{item.brief}</p>
                 </div>
               </div>
             ))}
