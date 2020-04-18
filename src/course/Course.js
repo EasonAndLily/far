@@ -9,6 +9,10 @@ import video from './video.svg';
 import haveRead from './have_read.svg';
 import notRead from './not_read.svg';
 import { Link } from 'react-router-dom';
+import chapter from './chapter.svg';
+import growth from './growth.svg';
+import introduction from './introduction.svg';
+import gain from './gain.svg';
 
 let growthPath = [
   {
@@ -257,7 +261,10 @@ function Course() {
           <div className="col">
             <div className="card border-0">
               <div className="card-body">
-                <h5 className="card-title">课程介绍：</h5>
+                <h5 className="card-title">
+                  <img src={introduction} alt="" className="chapter-img"></img>
+                  课程介绍：
+                </h5>
                 <p className="card-text pl-2">
                   本教程为Java入门第一季，欢迎来到精彩的Java编程世界！Java语言已经成为当前软件开发行业中主流的开发语言。本教程将介绍Java环境搭建、工具使用、基础语法。带领大家一步一步的踏入Java达人殿堂！Let’s
                   go!
@@ -268,7 +275,11 @@ function Course() {
           <div className="col">
             <div className="card border-0">
               <div className="card-body">
-                <h5 className="card-title">你将收获：</h5>
+                <h5 className="card-title">
+                  {' '}
+                  <img src={gain} alt="" className="chapter-img"></img>
+                  你将收获：
+                </h5>
                 <p className="card-text">
                   <ul className="you-will-get">
                     <li>零基础入门Java开发</li>
@@ -283,7 +294,10 @@ function Course() {
           </div>
         </div>
         <div className="container">
-          <h5 className="card-title ml-2">成长路径：</h5>
+          <h5 className="card-title ml-2">
+            <img src={growth} alt="" className="chapter-img"></img>
+            成长路径：
+          </h5>
           <div className="card-group">
             {growthPath.map((item) => (
               <div className="card text-center bg-white border-0">
@@ -306,7 +320,10 @@ function Course() {
           </div>
         </div>
         <div className="accordion mb-5" id="courseOutline">
-          <h5 className="pl-4">课程章节</h5>
+          <h5 className="pl-4">
+            <img src={chapter} alt="" className="chapter-img"></img>
+            课程章节
+          </h5>
           {courseOutline.map((outline) => (
             <div className="card border-0">
               <div
