@@ -224,7 +224,7 @@ let courseOutline = [
 
 function Course() {
   return (
-    <section className="col col-sm-9 opacity-9">
+    <section className="col col-sm-9 opacity-9 mb-4">
       <div className="card border-0 shadow">
         <div className="jumbotron jumbotron-fluid course-bg rounded card-img-top mb-0">
           <div className="container">
@@ -306,7 +306,7 @@ function Course() {
             ))}
           </div>
         </div>
-        <div className="accordion mb-5" id="courseOutline">
+        <div className="accordion" id="courseOutline">
           <h5 className="pl-4">
             <img src={chapter} alt="" className="chapter-img"></img>
             课程章节
@@ -350,6 +350,13 @@ function Course() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="p-3">
+          <Link
+            className="btn btn-outline-dark btn-lg btn-block rounded-pill"
+            to="/detail">
+            点击这里开始学习啦!
+          </Link>
         </div>
       </div>
     </section>
