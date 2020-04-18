@@ -276,7 +276,6 @@ function Course() {
             <div className="card border-0">
               <div className="card-body">
                 <h5 className="card-title">
-                  {' '}
                   <img src={gain} alt="" className="chapter-img"></img>
                   你将收获：
                 </h5>
@@ -298,7 +297,7 @@ function Course() {
             <img src={growth} alt="" className="chapter-img"></img>
             成长路径：
           </h5>
-          <div className="card-group">
+          <div className="card-group row row-cols-2">
             {growthPath.map((item) => (
               <div className="card text-center bg-white border-0">
                 <div className="card-header bg-white border-0 font-weight-bold p-1">
