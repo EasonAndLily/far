@@ -244,15 +244,25 @@ function Course() {
       <div className="card border-0 shadow">
         <div className="jumbotron jumbotron-fluid course-bg rounded card-img-top mb-0">
           <div className="container">
-            <h1 className="display-4 text-center text-white">
-              Java SE 基础课程
+            <h1 className="display-4 d-none d-sm-block text-center text-white">
+              JavaSE 基础课程
             </h1>
+            <h2 className="d-sm-none text-center text-white">
+              JavaSE 基础课程
+            </h2>
+            <h5 className="d-none d-sm-block text-center text-white">
+              入门类课程，面向零基础学员
+            </h5>
+            <h6 className="d-sm-none text-center text-white">
+              入门类课程，面向零基础学员
+            </h6>
             <div className="text-center text-white">
-              <ul className="course-attr p-0">
-                <li>难度：入门</li>
-                <li>时长：30分钟</li>
-                <li>人数：1235人</li>
-                <li>作者：李景华</li>
+              <ul className="course-attr p-0 font-12">
+                <li>难度:入门</li>
+                <li>时长:30分钟</li>
+                <li>人数:1235</li>
+                <li>作者:李景华</li>
+                <li>评分:9.8</li>
               </ul>
             </div>
           </div>

@@ -15,7 +15,7 @@
 }
 
 .course-attr li:not(:first-child)::before {
-  padding: 2px 5px 2px 5px;
+  padding: 2px 2px 2px 2px;
   content: '|';
 }
 
@@ -27,17 +27,11 @@
 .you-will-get li::before {
   content: '☑️';
 }
-
-.font-12 {
-  font-size: 12px;
+@media (max-width: 360px) {
+  .course-attr li {
+    font-size: 10px;
+  }
 }
-.font-14 {
-  font-size: 14px;
-}
-.font-15 {
-  font-size: 15px;
-}
-
 .btn-bg {
   background-color: #ffffff;
   outline: none;
