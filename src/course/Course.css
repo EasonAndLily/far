@@ -1,5 +1,4 @@
 .course-bg {
-  /* background: url('./java-course-bg.jpg') rgba(105, 103, 103, 0.9); */
   background: url('https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/sculpture.jpg')
     rgba(105, 103, 103, 0.9);
   background-blend-mode: multiply;
@@ -43,4 +42,12 @@
   background-color: #ffffff;
   outline: none;
   border: 0px;
+}
+
+.node:hover {
+  background-color: #f8f9fa;
+}
+
+.node-img {
+  margin: -5px 5px 0px 3px;
 }

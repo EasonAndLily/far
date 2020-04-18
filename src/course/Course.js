@@ -4,6 +4,11 @@ import gradfather from './gradfather.svg';
 import baby from './baby.svg';
 import teenager from './teenager.svg';
 import student from './student.svg';
+import doc from './doc.svg';
+import video from './video.svg';
+import haveRead from './have_read.svg';
+import notRead from './not_read.svg';
+import { Link } from 'react-router-dom';
 
 let growthPath = [
   {
@@ -58,11 +63,41 @@ let courseOutline = [
     header: 'headingOne',
     name: '第一章：Java基础语法',
     nodes: [
-      '搭建Java开发环境',
-      '变量与数据类型',
-      'Java运算符',
-      '类与函数',
-      '流程控制语句',
+      {
+        id: '1001',
+        name: '搭建Java开发环境',
+        type: doc,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1002',
+        name: '变量与数据类型',
+        type: video,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1003',
+        name: 'Java运算符',
+        type: doc,
+        time: '05:20',
+        read: false,
+      },
+      {
+        id: '1004',
+        name: '类与函数',
+        type: video,
+        time: '3min',
+        read: true,
+      },
+      {
+        id: '1005',
+        name: '流程控制语句',
+        type: doc,
+        time: '05:20',
+        read: false,
+      },
     ],
   },
   {
@@ -70,11 +105,41 @@ let courseOutline = [
     header: 'headingTwo',
     name: '第二章：面向对象编程',
     nodes: [
-      '搭建Java开发环境',
-      '变量与数据类型',
-      'Java运算符',
-      '类与函数',
-      '流程控制语句',
+      {
+        id: '1001',
+        name: '搭建Java开发环境',
+        type: doc,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1002',
+        name: '变量与数据类型',
+        type: video,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1003',
+        name: 'Java运算符',
+        type: doc,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1004',
+        name: '类与函数',
+        type: video,
+        time: '03:15',
+        read: true,
+      },
+      {
+        id: '1005',
+        name: '流程控制语句',
+        type: doc,
+        time: '05:20',
+        read: true,
+      },
     ],
   },
   {
@@ -82,11 +147,43 @@ let courseOutline = [
     header: 'headingThree',
     name: '第三章：java基础进阶',
     nodes: [
-      '搭建Java开发环境',
-      '变量与数据类型',
-      'Java运算符',
-      '类与函数',
-      '流程控制语句',
+      {
+        id: '1001',
+        name: '搭建Java开发环境',
+        type: doc,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1002',
+        name: '变量与数据类型',
+        type: video,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1003',
+        name: 'Java运算符',
+        type: doc,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1004',
+        name: '类与函数',
+        type: video,
+        time: '03:10',
+        views: '1.5k',
+        grade: 9.0,
+      },
+      {
+        id: '1005',
+        name: '流程控制语句',
+        type: doc,
+        time: '05:20',
+        views: '1.5k',
+        grade: 9.5,
+      },
     ],
   },
   {
@@ -94,11 +191,45 @@ let courseOutline = [
     header: 'headingFour',
     name: '第四章：Java8 API',
     nodes: [
-      '搭建Java开发环境',
-      '变量与数据类型',
-      'Java运算符',
-      '类与函数',
-      '流程控制语句',
+      {
+        id: '1001',
+        name: '搭建Java开发环境',
+        type: doc,
+        time: '05:20',
+        read: true,
+      },
+      {
+        id: '1002',
+        name: '变量与数据类型',
+        type: video,
+        time: '05:20',
+        views: '1.2k',
+        grade: 9.8,
+      },
+      {
+        id: '1003',
+        name: 'Java运算符',
+        type: doc,
+        time: '05:20',
+        views: '1.1k',
+        grade: 9.8,
+      },
+      {
+        id: '1004',
+        name: '类与函数',
+        type: video,
+        time: '03:20',
+        views: '1.0k',
+        grade: 9.0,
+      },
+      {
+        id: '1005',
+        name: '流程控制语句',
+        type: doc,
+        time: '05:20',
+        views: '3k',
+        grade: 9.5,
+      },
     ],
   },
 ];
@@ -199,7 +330,16 @@ function Course() {
                 <div className="card-body p-0">
                   <ol className="ml-5 font-14 pt-1">
                     {outline.nodes.map((node) => (
-                      <li className="p-1">{node}</li>
+                      <li className="p-1 node mr-2 mr-sm-5">
+                        <img src={node.type} alt="" className="node-img"></img>
+                        <Link to="/detail" className="text-dark">
+                          {node.name + ' (' + node.time + ')'}
+                        </Link>
+                        <img
+                          src={node.read ? haveRead : notRead}
+                          className="float-right pr-1"
+                          alt=""></img>
+                      </li>
                     ))}
                   </ol>
                 </div>
