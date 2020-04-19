@@ -1,0 +1,20 @@
+.banner {
+  background: url('https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/sculpture.jpg')
+    rgba(105, 103, 103, 0.9);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0.5px);
+}
+
+.banner-attr {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.banner-attr li:not(:first-child)::before {
+  padding: 2px 2px 2px 2px;
+  content: '|';
+}

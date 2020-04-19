@@ -13,6 +13,17 @@ import chapter from './chapter.svg';
 import growth from './growth.svg';
 import introduction from './introduction.svg';
 import gain from './gain.svg';
+import Banner from './banner/Banner.js';
+
+let course = {
+  title: 'JavaSE 基础课程',
+  subTitle: '入门类课程，面向零基础学员',
+  difficulty: '入门',
+  duration: '30分钟',
+  learningNumbers: 12345,
+  author: 'Eason',
+  score: 9.8,
+};
 
 let growthPath = [
   {
@@ -226,31 +237,7 @@ function Course() {
   return (
     <section className="col col-sm-9 opacity-9 mb-4">
       <div className="card border-0 shadow">
-        <div className="jumbotron jumbotron-fluid course-bg rounded card-img-top mb-0">
-          <div className="container">
-            <h1 className="display-4 d-none d-sm-block text-center text-white">
-              JavaSE 基础课程
-            </h1>
-            <h2 className="d-sm-none text-center text-white">
-              JavaSE 基础课程
-            </h2>
-            <h5 className="d-none d-sm-block text-center text-white">
-              入门类课程，面向零基础学员
-            </h5>
-            <h6 className="d-sm-none text-center text-white">
-              入门类课程，面向零基础学员
-            </h6>
-            <div className="text-center text-white">
-              <ul className="course-attr p-0 font-12">
-                <li>难度:入门</li>
-                <li>时长:30分钟</li>
-                <li>人数:1235</li>
-                <li>作者:李景华</li>
-                <li>评分:9.8</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <Banner course={course}></Banner>
         <div className="row row-cols-1 row-cols-md-2 p-1">
           <div className="col">
             <div className="card border-0">
