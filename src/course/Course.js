@@ -1,17 +1,16 @@
 import React from 'react';
-import './Course.css';
-import gradfather from './growth/gradfather.svg';
-import baby from './growth/baby.svg';
-import teenager from './growth/teenager.svg';
-import student from './growth/student.svg';
-import doc from './chapter/doc.svg';
-import video from './chapter/video.svg';
 import { Link } from 'react-router-dom';
 import Banner from './banner/Banner.js';
 import Intro from './intro/Intro.js';
 import Gain from './gain/Gain.js';
 import Growth from './growth/Growth';
 import Chapter from './chapter/Chapter.js';
+import gradfather from './growth/gradfather.svg';
+import baby from './growth/baby.svg';
+import teenager from './growth/teenager.svg';
+import student from './growth/student.svg';
+import doc from './chapter/doc.svg';
+import video from './chapter/video.svg';
 
 let course = {
   title: 'JavaSE 基础课程',

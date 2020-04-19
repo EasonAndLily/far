@@ -33,9 +33,9 @@ function Chapter({ course }) {
             aria-labelledby={outline.header}
             data-parent="#courseOutline">
             <div className="card-body p-0">
-              <ol className="ml-3 ml-sm-5 font-14 pt-1">
+              <ol className="ml-0 ml-sm-5 font-14 pt-1">
                 {outline.nodes.map((node) => (
-                  <li className="p-1 node mr-2 mr-sm-5">
+                  <li className="p-1 node mr-1 mr-sm-5">
                     <img src={node.type} alt="" className="node-img"></img>
                     <Link to="/detail" className="text-dark">
                       {node.name + ' (' + node.time + ')'}
