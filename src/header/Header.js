@@ -4,11 +4,12 @@ import logo from './logo.png';
 import searchBtn from './search-btn.svg';
 import login from './login.svg';
 import signUp from './sign-up.svg';
+import Category from '../sidebar/category/Category.js';
 
 function Header() {
   return (
     <header className="bg-white shadow opacity-9 navbar-fixed-top">
-      <nav className="container navbar navbar-expand-lg navbar-light bg-white p-0">
+      <nav className="container navbar navbar-light bg-white p-0">
         <div className="row flex-fill">
           <div className="col-2 ml-2">
             <a className="navbar-brand" href="##">
@@ -17,10 +18,10 @@ function Header() {
             </a>
           </div>
 
-          <div className="col-10 row justify-content-end pt-1">
+          <div className="col-8 col-sm-10 row justify-content-end pt-1">
             <div className="col-sm-10 row justify-content-end mr-2">
               <input
-                className="search-input"
+                className="search-input mt-2"
                 type="search"
                 placeholder="输入内容检索关键字"
               />
@@ -36,6 +37,20 @@ function Header() {
                 <img src={login} alt="login"></img>
               </a>
             </div>
+          </div>
+          <button
+            class="navbar-toggler d-sm-none d-block"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse pl-2"
+            id="navbarSupportedContent">
+            <Category></Category>
           </div>
         </div>
       </nav>

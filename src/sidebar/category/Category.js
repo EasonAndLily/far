@@ -20,8 +20,8 @@ class Category extends React.Component {
             'Java SE 教程',
             'JavaScript 教程',
             'Python3 教程',
-            'Node 教程'
-          ]
+            'Node 教程',
+          ],
         },
         {
           id: '2',
@@ -31,8 +31,8 @@ class Category extends React.Component {
             'Java SE 教程',
             'JavaScript 教程',
             'Python3 教程',
-            'Node 教程'
-          ]
+            'Node 教程',
+          ],
         },
         {
           id: '3',
@@ -42,8 +42,8 @@ class Category extends React.Component {
             'Java SE 教程',
             'JavaScript 教程',
             'Python3 教程',
-            'Node 教程'
-          ]
+            'Node 教程',
+          ],
         },
         {
           id: '4',
@@ -53,10 +53,10 @@ class Category extends React.Component {
             'Java SE 教程',
             'JavaScript 教程',
             'Python3 教程',
-            'Node 教程'
-          ]
-        }
-      ]
+            'Node 教程',
+          ],
+        },
+      ],
     };
   }
 

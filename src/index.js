@@ -13,10 +13,10 @@ import Course from './course/Course';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header></Header>
-    <main className="container mt-5 pt-4">
-      <article className="row">
-        <Router basename="/">
+    <Router basename="/">
+      <Header></Header>
+      <main className="container mt-5 pt-4">
+        <article className="row">
           <Sidebar></Sidebar>
           <Switch>
             <Route path="/detail">
@@ -29,9 +29,9 @@ ReactDOM.render(
               <Home />
             </Route>
           </Switch>
-        </Router>
-      </article>
-    </main>
+        </article>
+      </main>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
