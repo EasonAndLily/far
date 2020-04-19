@@ -21,7 +21,6 @@
 
 .you-will-get {
   list-style: none;
-  padding-left: 20px;
 }
 
 .you-will-get li::before {

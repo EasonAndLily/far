@@ -274,7 +274,7 @@ function Course() {
                   你将收获：
                 </h5>
                 <p className="card-text">
-                  <ul className="you-will-get">
+                  <ul className="you-will-get pl-2 pl-sm-4">
                     <li>零基础入门Java开发</li>
                     <li>储备基本的编程思维</li>
                     <li>使用面向对象的思维处理常见问题</li>
