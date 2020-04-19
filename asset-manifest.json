@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/far/static/css/main.089f53a9.chunk.css",
-    "main.js": "/far/static/js/main.ab0c2b34.chunk.js",
-    "main.js.map": "/far/static/js/main.ab0c2b34.chunk.js.map",
+    "main.css": "/far/static/css/main.f92f2d99.chunk.css",
+    "main.js": "/far/static/js/main.97485a18.chunk.js",
+    "main.js.map": "/far/static/js/main.97485a18.chunk.js.map",
     "runtime-main.js": "/far/static/js/runtime-main.85f1febd.js",
     "runtime-main.js.map": "/far/static/js/runtime-main.85f1febd.js.map",
     "static/css/2.de424728.chunk.css": "/far/static/css/2.de424728.chunk.css",
-    "static/js/2.f0f8b3ee.chunk.js": "/far/static/js/2.f0f8b3ee.chunk.js",
-    "static/js/2.f0f8b3ee.chunk.js.map": "/far/static/js/2.f0f8b3ee.chunk.js.map",
+    "static/js/2.f8e66211.chunk.js": "/far/static/js/2.f8e66211.chunk.js",
+    "static/js/2.f8e66211.chunk.js.map": "/far/static/js/2.f8e66211.chunk.js.map",
     "index.html": "/far/index.html",
-    "precache-manifest.5581bac4a7fc27aab33eb55ee3219799.js": "/far/precache-manifest.5581bac4a7fc27aab33eb55ee3219799.js",
+    "precache-manifest.bc98bd62b3403929091dca2b4ff9b2de.js": "/far/precache-manifest.bc98bd62b3403929091dca2b4ff9b2de.js",
     "service-worker.js": "/far/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/far/static/css/2.de424728.chunk.css.map",
-    "static/css/main.089f53a9.chunk.css.map": "/far/static/css/main.089f53a9.chunk.css.map",
-    "static/js/2.f0f8b3ee.chunk.js.LICENSE.txt": "/far/static/js/2.f0f8b3ee.chunk.js.LICENSE.txt",
+    "static/css/main.f92f2d99.chunk.css.map": "/far/static/css/main.f92f2d99.chunk.css.map",
+    "static/js/2.f8e66211.chunk.js.LICENSE.txt": "/far/static/js/2.f8e66211.chunk.js.LICENSE.txt",
     "static/media/baby.svg": "/far/static/media/baby.caaaae3d.svg",
     "static/media/chapter.svg": "/far/static/media/chapter.1b6bd08a.svg",
     "static/media/clean-code.svg": "/far/static/media/clean-code.78f5a48e.svg",
@@ -27,7 +27,7 @@
     "static/media/gradfather.svg": "/far/static/media/gradfather.925d7470.svg",
     "static/media/growth.svg": "/far/static/media/growth.6275063d.svg",
     "static/media/have_read.svg": "/far/static/media/have_read.96749928.svg",
-    "static/media/introduction.svg": "/far/static/media/introduction.2fa0f112.svg",
+    "static/media/intro.svg": "/far/static/media/intro.2fa0f112.svg",
     "static/media/location.svg": "/far/static/media/location.11469798.svg",
     "static/media/login.svg": "/far/static/media/login.4cb3a890.svg",
     "static/media/micro-blog.svg": "/far/static/media/micro-blog.5c7b8bf2.svg",
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.85f1febd.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.f0f8b3ee.chunk.js",
-    "static/css/main.089f53a9.chunk.css",
-    "static/js/main.ab0c2b34.chunk.js"
+    "static/js/2.f8e66211.chunk.js",
+    "static/css/main.f92f2d99.chunk.css",
+    "static/js/main.97485a18.chunk.js"
   ]
 }
