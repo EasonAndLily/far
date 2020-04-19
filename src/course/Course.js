@@ -317,7 +317,7 @@ function Course() {
                 className="card-header p-0 bg-white border-0"
                 id={outline.header}>
                 <button
-                  className="btn btn-light btn-sm btn-block pl-5 text-left btn-bg font-15"
+                  className="btn btn-light btn-sm btn-block pl-4 pl-sm-5 text-left btn-bg font-15"
                   type="button"
                   data-toggle="collapse"
                   data-target={'#' + outline.id}
@@ -332,7 +332,7 @@ function Course() {
                 aria-labelledby={outline.header}
                 data-parent="#courseOutline">
                 <div className="card-body p-0">
-                  <ol className="ml-5 font-14 pt-1">
+                  <ol className="ml-3 ml-sm-5 font-14 pt-1">
                     {outline.nodes.map((node) => (
                       <li className="p-1 node mr-2 mr-sm-5">
                         <img src={node.type} alt="" className="node-img"></img>
