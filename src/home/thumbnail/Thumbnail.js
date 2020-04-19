@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Thumbnail(props) {
   return (
-    <div className="card shadow card-height">
+    <div className="card shadow card-height bg-white">
       <div className="row no-gutters">
         <div className="col-4">
           <img
@@ -28,7 +28,7 @@ function Thumbnail(props) {
           <div className="mt-auto">
             <Link
               to="/detail"
-              className="btn btn-outline-dark btn-sm mb-2 float-right mr-2">
+              className="btn btn-outline-dark btn-sm mb-2 float-right mr-2 rounded-pill">
               开始学习
             </Link>
           </div>

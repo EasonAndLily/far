@@ -9,7 +9,7 @@ function Overview(props) {
           {props.title}
         </a>
       </p>
-      <nav className="nav nav-tabs" id="nav-tab" role="tablist">
+      <nav className="nav nav-tabs pl-2" id="nav-tab" role="tablist">
         {props.nav.tabs.map((tab) => (
           <a
             className={
