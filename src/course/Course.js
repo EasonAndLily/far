@@ -11,9 +11,9 @@ import notRead from './not_read.svg';
 import { Link } from 'react-router-dom';
 import chapter from './chapter.svg';
 import growth from './growth.svg';
-import introduction from './introduction.svg';
 import gain from './gain.svg';
 import Banner from './banner/Banner.js';
+import Intro from './intro/Intro.js';
 
 let course = {
   title: 'JavaSE 基础课程',
@@ -23,6 +23,8 @@ let course = {
   learningNumbers: 12345,
   author: 'Eason',
   score: 9.8,
+  intro:
+    '本教程为Java入门第一季，欢迎来到精彩的Java编程世界！Java语言已经成为当前软件开发行业中主流的开发语言。本教程将介绍Java环境搭建、工具使用、基础语法。带领大家一步一步的踏入Java达人殿堂！Let’s go!',
 };
 
 let growthPath = [
@@ -240,18 +242,7 @@ function Course() {
         <Banner course={course}></Banner>
         <div className="row row-cols-1 row-cols-md-2 p-1">
           <div className="col">
-            <div className="card border-0">
-              <div className="card-body">
-                <h5 className="card-title">
-                  <img src={introduction} alt="" className="chapter-img"></img>
-                  课程介绍：
-                </h5>
-                <p className="card-text pl-2">
-                  本教程为Java入门第一季，欢迎来到精彩的Java编程世界！Java语言已经成为当前软件开发行业中主流的开发语言。本教程将介绍Java环境搭建、工具使用、基础语法。带领大家一步一步的踏入Java达人殿堂！Let’s
-                  go!
-                </p>
-              </div>
-            </div>
+            <Intro course={course}></Intro>
           </div>
           <div className="col">
             <div className="card border-0">
