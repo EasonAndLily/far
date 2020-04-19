@@ -31,21 +31,21 @@ let course = {
   growth: [
     {
       title: '第一步：1周',
-      name: '入门Java基础语法',
+      name: 'Java基础语法',
       image: baby,
       brief:
         '此阶段将为你你打造高效的Java开发环境，学会使用Java开发利器，初识Java基础语法',
     },
     {
       title: '第二步：2周',
-      name: '初识面向对象编程',
+      name: '面向对象编程',
       image: teenager,
       brief:
         '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
     },
     {
       title: '第三步：2周',
-      name: 'Java基础语法进阶',
+      name: 'Java语法进阶',
       image: student,
       brief:
         '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
