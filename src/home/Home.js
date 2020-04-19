@@ -6,31 +6,31 @@ let thumbnails = [
   {
     title: 'MVC入门',
     poster:
-      'https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/flower.jpg',
+      'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3785025244,1489888063&fm=26&gp=0.jpg',
     description:
-      'MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。'
+      'MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一,MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。',
   },
   {
     title: 'MVC入门',
     poster:
-      'https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/plant.jpg',
+      'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=248292353,2422083272&fm=26&gp=0.jpg',
     description:
-      'MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。'
+      'MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一,MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。',
   },
   {
     title: 'MVC入门',
     poster:
-      'https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/deer.jpg',
+      'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2274931468,651418564&fm=26&gp=0.jpg',
     description:
-      'MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。'
+      'MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。',
   },
   {
     title: 'MVC入门',
     poster:
-      'https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/sculpture.jpg',
+      'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1267297012,3857394705&fm=26&gp=0.jpg',
     description:
-      'MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。'
-  }
+      'MVC作为目前最火的后端框架，它能使得业务层和视图层在逻辑上解耦，使得各层的职责和功能更加单一。',
+  },
 ];
 
 let nav = {
@@ -41,36 +41,36 @@ let nav = {
       id: 'javascript-tab',
       href: 'javascript',
       title: 'JavaScript',
-      isActive: false
+      isActive: false,
     },
-    { id: 'python-tab', href: 'python', title: 'Python', isActive: false }
+    { id: 'python-tab', href: 'python', title: 'Python', isActive: false },
   ],
   contents: [
     {
       id: 'latest',
       tabId: 'latest-tab',
       thumbnails: thumbnails,
-      isActive: true
+      isActive: true,
     },
     {
       id: 'java',
       tabId: 'java-tab',
       isActive: false,
-      thumbnails: []
+      thumbnails: [],
     },
     {
       id: 'javascript',
       tabId: 'javascript-tab',
       isActive: false,
-      thumbnails: thumbnails
+      thumbnails: thumbnails,
     },
     {
       id: 'python',
       tabId: 'python-tab',
       isActive: false,
-      thumbnails: []
-    }
-  ]
+      thumbnails: [],
+    },
+  ],
 };
 
 function Home() {

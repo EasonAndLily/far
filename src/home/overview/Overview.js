@@ -40,7 +40,7 @@ function Overview(props) {
             aria-labelledby={content.tabId}>
             <div className="row">
               {content.thumbnails.map((card) => (
-                <div className="col-md-3 col-6 p-1">
+                <div className="col-12 col-md-6 p-1">
                   <Thumbnail
                     poster={card.poster}
                     title={card.title}

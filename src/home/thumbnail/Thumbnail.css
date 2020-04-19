@@ -1,0 +1,9 @@
+.card-height {
+  height: 160px;
+}
+
+.start-learning-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+}
