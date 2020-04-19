@@ -1,0 +1,11 @@
+.node:hover {
+  background-color: #f8f9fa;
+}
+
+.node-img {
+  margin: -5px 5px 0px 3px;
+}
+
+.chapter-img {
+  margin: -4px 5px 0px 0px;
+}

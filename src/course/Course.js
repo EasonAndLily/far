@@ -4,16 +4,14 @@ import gradfather from './growth/gradfather.svg';
 import baby from './growth/baby.svg';
 import teenager from './growth/teenager.svg';
 import student from './growth/student.svg';
-import doc from './doc.svg';
-import video from './video.svg';
-import haveRead from './have_read.svg';
-import notRead from './not_read.svg';
+import doc from './chapter/doc.svg';
+import video from './chapter/video.svg';
 import { Link } from 'react-router-dom';
-import chapter from './chapter.svg';
 import Banner from './banner/Banner.js';
 import Intro from './intro/Intro.js';
 import Gain from './gain/Gain.js';
 import Growth from './growth/Growth';
+import Chapter from './chapter/Chapter.js';
 
 let course = {
   title: 'JavaSE 基础课程',
@@ -61,184 +59,183 @@ let course = {
         '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
     },
   ],
+  outline: [
+    {
+      id: 'collapseOne',
+      header: 'headingOne',
+      name: '第一章：Java基础语法',
+      nodes: [
+        {
+          id: '1001',
+          name: '搭建Java开发环境',
+          type: doc,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1002',
+          name: '变量与数据类型',
+          type: video,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1003',
+          name: 'Java运算符',
+          type: doc,
+          time: '05:20',
+          read: false,
+        },
+        {
+          id: '1004',
+          name: '类与函数',
+          type: video,
+          time: '3min',
+          read: true,
+        },
+        {
+          id: '1005',
+          name: '流程控制语句',
+          type: doc,
+          time: '05:20',
+          read: false,
+        },
+      ],
+    },
+    {
+      id: 'collapseTwo',
+      header: 'headingTwo',
+      name: '第二章：面向对象编程',
+      nodes: [
+        {
+          id: '1001',
+          name: '搭建Java开发环境',
+          type: doc,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1002',
+          name: '变量与数据类型',
+          type: video,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1003',
+          name: 'Java运算符',
+          type: doc,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1004',
+          name: '类与函数',
+          type: video,
+          time: '03:15',
+          read: true,
+        },
+        {
+          id: '1005',
+          name: '流程控制语句',
+          type: doc,
+          time: '05:20',
+          read: true,
+        },
+      ],
+    },
+    {
+      id: 'collapseThree',
+      header: 'headingThree',
+      name: '第三章：java基础进阶',
+      nodes: [
+        {
+          id: '1001',
+          name: '搭建Java开发环境',
+          type: doc,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1002',
+          name: '变量与数据类型',
+          type: video,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1003',
+          name: 'Java运算符',
+          type: doc,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1004',
+          name: '类与函数',
+          type: video,
+          time: '03:10',
+          views: '1.5k',
+          grade: 9.0,
+        },
+        {
+          id: '1005',
+          name: '流程控制语句',
+          type: doc,
+          time: '05:20',
+          views: '1.5k',
+          grade: 9.5,
+        },
+      ],
+    },
+    {
+      id: 'collapseFour',
+      header: 'headingFour',
+      name: '第四章：Java8 API',
+      nodes: [
+        {
+          id: '1001',
+          name: '搭建Java开发环境',
+          type: doc,
+          time: '05:20',
+          read: true,
+        },
+        {
+          id: '1002',
+          name: '变量与数据类型',
+          type: video,
+          time: '05:20',
+          views: '1.2k',
+          grade: 9.8,
+        },
+        {
+          id: '1003',
+          name: 'Java运算符',
+          type: doc,
+          time: '05:20',
+          views: '1.1k',
+          grade: 9.8,
+        },
+        {
+          id: '1004',
+          name: '类与函数',
+          type: video,
+          time: '03:20',
+          views: '1.0k',
+          grade: 9.0,
+        },
+        {
+          id: '1005',
+          name: '流程控制语句',
+          type: doc,
+          time: '05:20',
+          views: '3k',
+          grade: 9.5,
+        },
+      ],
+    },
+  ],
 };
-
-let courseOutline = [
-  {
-    id: 'collapseOne',
-    header: 'headingOne',
-    name: '第一章：Java基础语法',
-    nodes: [
-      {
-        id: '1001',
-        name: '搭建Java开发环境',
-        type: doc,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1002',
-        name: '变量与数据类型',
-        type: video,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1003',
-        name: 'Java运算符',
-        type: doc,
-        time: '05:20',
-        read: false,
-      },
-      {
-        id: '1004',
-        name: '类与函数',
-        type: video,
-        time: '3min',
-        read: true,
-      },
-      {
-        id: '1005',
-        name: '流程控制语句',
-        type: doc,
-        time: '05:20',
-        read: false,
-      },
-    ],
-  },
-  {
-    id: 'collapseTwo',
-    header: 'headingTwo',
-    name: '第二章：面向对象编程',
-    nodes: [
-      {
-        id: '1001',
-        name: '搭建Java开发环境',
-        type: doc,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1002',
-        name: '变量与数据类型',
-        type: video,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1003',
-        name: 'Java运算符',
-        type: doc,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1004',
-        name: '类与函数',
-        type: video,
-        time: '03:15',
-        read: true,
-      },
-      {
-        id: '1005',
-        name: '流程控制语句',
-        type: doc,
-        time: '05:20',
-        read: true,
-      },
-    ],
-  },
-  {
-    id: 'collapseThree',
-    header: 'headingThree',
-    name: '第三章：java基础进阶',
-    nodes: [
-      {
-        id: '1001',
-        name: '搭建Java开发环境',
-        type: doc,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1002',
-        name: '变量与数据类型',
-        type: video,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1003',
-        name: 'Java运算符',
-        type: doc,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1004',
-        name: '类与函数',
-        type: video,
-        time: '03:10',
-        views: '1.5k',
-        grade: 9.0,
-      },
-      {
-        id: '1005',
-        name: '流程控制语句',
-        type: doc,
-        time: '05:20',
-        views: '1.5k',
-        grade: 9.5,
-      },
-    ],
-  },
-  {
-    id: 'collapseFour',
-    header: 'headingFour',
-    name: '第四章：Java8 API',
-    nodes: [
-      {
-        id: '1001',
-        name: '搭建Java开发环境',
-        type: doc,
-        time: '05:20',
-        read: true,
-      },
-      {
-        id: '1002',
-        name: '变量与数据类型',
-        type: video,
-        time: '05:20',
-        views: '1.2k',
-        grade: 9.8,
-      },
-      {
-        id: '1003',
-        name: 'Java运算符',
-        type: doc,
-        time: '05:20',
-        views: '1.1k',
-        grade: 9.8,
-      },
-      {
-        id: '1004',
-        name: '类与函数',
-        type: video,
-        time: '03:20',
-        views: '1.0k',
-        grade: 9.0,
-      },
-      {
-        id: '1005',
-        name: '流程控制语句',
-        type: doc,
-        time: '05:20',
-        views: '3k',
-        grade: 9.5,
-      },
-    ],
-  },
-];
 
 function Course() {
   return (
@@ -254,51 +251,7 @@ function Course() {
           </div>
         </div>
         <Growth course={course}></Growth>
-        <div className="accordion" id="courseOutline">
-          <h5 className="pl-4">
-            <img src={chapter} alt="" className="chapter-img"></img>
-            课程章节
-          </h5>
-          {courseOutline.map((outline) => (
-            <div className="card border-0">
-              <div
-                className="card-header p-0 bg-white border-0"
-                id={outline.header}>
-                <button
-                  className="btn btn-light btn-sm btn-block pl-4 pl-sm-5 text-left btn-bg font-15"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target={'#' + outline.id}
-                  aria-expanded="true"
-                  aria-controls={outline.id}>
-                  {outline.name}
-                </button>
-              </div>
-              <div
-                id={outline.id}
-                className="collapse"
-                aria-labelledby={outline.header}
-                data-parent="#courseOutline">
-                <div className="card-body p-0">
-                  <ol className="ml-3 ml-sm-5 font-14 pt-1">
-                    {outline.nodes.map((node) => (
-                      <li className="p-1 node mr-2 mr-sm-5">
-                        <img src={node.type} alt="" className="node-img"></img>
-                        <Link to="/detail" className="text-dark">
-                          {node.name + ' (' + node.time + ')'}
-                        </Link>
-                        <img
-                          src={node.read ? haveRead : notRead}
-                          className="float-right pr-1"
-                          alt=""></img>
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <Chapter course={course}></Chapter>
         <div className="p-3">
           <Link
             className="btn btn-outline-dark btn-lg btn-block rounded-pill"
