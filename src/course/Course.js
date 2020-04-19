@@ -11,9 +11,9 @@ import notRead from './not_read.svg';
 import { Link } from 'react-router-dom';
 import chapter from './chapter.svg';
 import growth from './growth.svg';
-import gain from './gain.svg';
 import Banner from './banner/Banner.js';
 import Intro from './intro/Intro.js';
+import Gain from './gain/Gain.js';
 
 let course = {
   title: 'JavaSE 基础课程',
@@ -25,6 +25,12 @@ let course = {
   score: 9.8,
   intro:
     '本教程为Java入门第一季，欢迎来到精彩的Java编程世界！Java语言已经成为当前软件开发行业中主流的开发语言。本教程将介绍Java环境搭建、工具使用、基础语法。带领大家一步一步的踏入Java达人殿堂！Let’s go!',
+  gains: [
+    '零基础入门Java开发',
+    '储备基本的编程思维',
+    '初识面向对象的思维模式',
+    '知道Java8提供的API',
+  ],
 };
 
 let growthPath = [
@@ -245,23 +251,7 @@ function Course() {
             <Intro course={course}></Intro>
           </div>
           <div className="col">
-            <div className="card border-0">
-              <div className="card-body">
-                <h5 className="card-title">
-                  <img src={gain} alt="" className="chapter-img"></img>
-                  你将收获：
-                </h5>
-                <p className="card-text">
-                  <ul className="you-will-get pl-2 pl-sm-4">
-                    <li>零基础入门Java开发</li>
-                    <li>储备基本的编程思维</li>
-                    <li>使用面向对象的思维处理常见问题</li>
-                    <li>使用面向对象的思维处理常见问题</li>
-                    <li>使用面向对象的思维处理常见问题</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
+            <Gain course={course}></Gain>
           </div>
         </div>
         <div className="container">

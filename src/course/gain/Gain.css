@@ -1,0 +1,3 @@
+.list-unstyled li::before {
+  content: '\2713\0020';
+}
