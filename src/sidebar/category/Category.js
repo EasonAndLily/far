@@ -80,7 +80,7 @@ class Category extends React.Component {
 
   render() {
     return (
-      <nav className="category bg-white rounded shadow mt-4 pt-2 pb-2">
+      <nav className="category bg-white rounded shadow mt-0 mt-sm-4 pt-sm-2 pt-1 pb-2">
         {this.generateCategoryUI()}
       </nav>
     );

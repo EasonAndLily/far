@@ -21,7 +21,7 @@ function Header() {
           <div className="col-8 col-sm-10 row justify-content-end pt-1">
             <div className="col-sm-10 row justify-content-end mr-2">
               <input
-                className="search-input mt-2"
+                className="search-input mt-2 w-75"
                 type="search"
                 placeholder="输入内容检索关键字"
               />
@@ -38,8 +38,9 @@ function Header() {
               </a>
             </div>
           </div>
+
           <button
-            class="navbar-toggler d-sm-none d-block"
+            class="d-sm-none d-block border-0 no-outline btn p-1 mt-1 h-75"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
