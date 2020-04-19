@@ -27,7 +27,7 @@ function Overview(props) {
           </a>
         ))}
       </nav>
-      <div className="tab-content p-1" id="nav-tabContent">
+      <div className="tab-content p-0 p-sm-1" id="nav-tabContent">
         {props.nav.contents.map((content) => (
           <div
             className={
@@ -40,7 +40,7 @@ function Overview(props) {
             aria-labelledby={content.tabId}>
             <div className="row">
               {content.thumbnails.map((card) => (
-                <div className="col-12 col-md-6 p-1">
+                <div className="col-12 col-md-6 p-0 p-sm-1 pt-2">
                   <Thumbnail
                     poster={card.poster}
                     title={card.title}
