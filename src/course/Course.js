@@ -1,19 +1,19 @@
 import React from 'react';
 import './Course.css';
-import gradfather from './gradfather.svg';
-import baby from './baby.svg';
-import teenager from './teenager.svg';
-import student from './student.svg';
+import gradfather from './growth/gradfather.svg';
+import baby from './growth/baby.svg';
+import teenager from './growth/teenager.svg';
+import student from './growth/student.svg';
 import doc from './doc.svg';
 import video from './video.svg';
 import haveRead from './have_read.svg';
 import notRead from './not_read.svg';
 import { Link } from 'react-router-dom';
 import chapter from './chapter.svg';
-import growth from './growth.svg';
 import Banner from './banner/Banner.js';
 import Intro from './intro/Intro.js';
 import Gain from './gain/Gain.js';
+import Growth from './growth/Growth';
 
 let course = {
   title: 'JavaSE 基础课程',
@@ -31,38 +31,37 @@ let course = {
     '初识面向对象的思维模式',
     '知道Java8提供的API',
   ],
+  growth: [
+    {
+      title: '第一步：1周',
+      name: '入门Java基础语法',
+      image: baby,
+      brief:
+        '此阶段将为你你打造高效的Java开发环境，学会使用Java开发利器，初识Java基础语法',
+    },
+    {
+      title: '第二步：2周',
+      name: '初识面向对象编程',
+      image: teenager,
+      brief:
+        '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
+    },
+    {
+      title: '第三步：2周',
+      name: 'Java基础语法进阶',
+      image: student,
+      brief:
+        '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
+    },
+    {
+      title: '第四步：2周',
+      name: 'Java8 API',
+      image: gradfather,
+      brief:
+        '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
+    },
+  ],
 };
-
-let growthPath = [
-  {
-    title: '第一步：1周',
-    name: '入门Java基础语法',
-    image: baby,
-    brief:
-      '此阶段将为你你打造高效的Java开发环境，学会使用Java开发利器，初识Java基础语法',
-  },
-  {
-    title: '第二步：2周',
-    name: '初识面向对象编程',
-    image: teenager,
-    brief:
-      '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
-  },
-  {
-    title: '第三步：2周',
-    name: 'Java基础语法进阶',
-    image: student,
-    brief:
-      '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
-  },
-  {
-    title: '第四步：2周',
-    name: 'Java8 API',
-    image: gradfather,
-    brief:
-      '此阶段你将掌握Java面向对象的基础语法，学会用面向对象的思维方式思考问题，解决问题',
-  },
-];
 
 let courseOutline = [
   {
@@ -254,26 +253,7 @@ function Course() {
             <Gain course={course}></Gain>
           </div>
         </div>
-        <div className="container">
-          <h5 className="card-title ml-2">
-            <img src={growth} alt="" className="chapter-img"></img>
-            成长路径：
-          </h5>
-          <div className="card-group row row-cols-2">
-            {growthPath.map((item) => (
-              <div className="card text-center bg-white border-0">
-                <div className="card-header bg-white border-0 font-weight-bold p-1">
-                  {item.title}
-                </div>
-                <img src={item.image} alt="..." />
-                <div className="card-body pt-2">
-                  <h6 className="card-title">{item.name}</h6>
-                  <p className="card-text font-12">{item.brief}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        <Growth course={course}></Growth>
         <div className="accordion" id="courseOutline">
           <h5 className="pl-4">
             <img src={chapter} alt="" className="chapter-img"></img>
