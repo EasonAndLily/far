@@ -12,7 +12,7 @@ let blog = {
 
 function Headline() {
   return (
-    <header className="card bg-white shadow headline">
+    <header className="card bg-white shadow headline mb-3">
       <Link to="/detail">
         <img
           src={blog.poster}

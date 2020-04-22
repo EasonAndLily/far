@@ -1,9 +1,10 @@
 import React from 'react';
 import Thumbnail from '../thumbnail/Thumbnail';
+import { Link } from 'react-router-dom';
 
 function Overview(props) {
   return (
-    <div className="mt-3 bg-white shadow rounded">
+    <div className="mb-3 bg-white shadow rounded">
       <p className="h6 font-weight-bold mb-0 p-1">
         <a href="##" className="text-dark">
           {props.title}
@@ -47,6 +48,13 @@ function Overview(props) {
                     description={card.description}></Thumbnail>
                 </div>
               ))}
+              <div className="col-12 text-center">
+                <Link
+                  className="btn btn-sm btn-outline-dark rounded-pill m-2"
+                  to="/search">
+                  查看更多···
+                </Link>
+              </div>
             </div>
           </div>
         ))}
