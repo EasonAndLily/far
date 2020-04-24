@@ -10,6 +10,7 @@ import Sidebar from './sidebar/Sidebar';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Detail from './detail/detail';
 import Course from './course/Course';
+import About from './about/About.js';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,9 @@ ReactDOM.render(
             </Route>
             <Route path="/course">
               <Course></Course>
+            </Route>
+            <Route path="/about_me">
+              <About></About>
             </Route>
             <Route path="/">
               <Home />

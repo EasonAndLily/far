@@ -5,6 +5,7 @@ import github from './github.svg';
 import gitlab from './gitlab.svg';
 import wechat from './we-chat.svg';
 import microBlog from './micro-blog.svg';
+import { Link } from 'react-router-dom';
 
 function Blogger() {
   return (
@@ -26,11 +27,11 @@ function Blogger() {
           </h6>
         </figcaption>
         <div className="card-body pb-0">
-          <button
-            type="button"
+          <Link
+            to="/about_me"
             className="btn btn-outline-dark btn-sm btn-block rounded-pill">
             了解我
-          </button>
+          </Link>
           <ul className="list-inline mb-0 mt-2 text-center">
             <li className="list-inline-item">
               <a href="https://github.com/EasonAndLily">
