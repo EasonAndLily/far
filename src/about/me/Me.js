@@ -14,6 +14,8 @@ import school from './school.svg';
 import profession from './profession.svg';
 import certificate from './certificate.svg';
 import CET from './CET.svg';
+import experience from './experience.svg';
+import company from './company.svg';
 
 function Me() {
   return (
@@ -46,7 +48,7 @@ function Me() {
           </div>
         </div>
         <div className="card mt-3 shadow">
-          <h5 className="card-header pb-0 pt-1 pl-2 pr-1">
+          <h5 className="card-header pb-1 pt-1 pl-2 pr-1">
             <img src={education} alt="" className="img-mt-4 mr-2"></img>
             教育背景
           </h5>
@@ -67,6 +69,33 @@ function Me() {
               <img src={CET} alt="" className="img-mt-4 mr-2"></img>
               英语四级
             </h6>
+          </div>
+        </div>
+        <div className="card mt-3 shadow">
+          <h5 className="card-header pb-1 pt-1 pl-2 pr-1">
+            <img src={experience} alt="" className="img-mt-4 mr-2"></img>
+            工作经历--5年
+          </h5>
+          <div className="card-body p-2">
+            <h6 class="card-title p-1 mb-0">
+              <img src={company} alt="" className="img-mt-4 mr-2"></img>
+              ThoughtWorks--2年
+            </h6>
+            <hr className="m-0"></hr>
+            <ul className="font-14 mb-2">
+              <li>2018 ~ 现在</li>
+              <li>软件咨询师/IT培训师</li>
+            </ul>
+
+            <h6 class="card-title p-1  mb-0">
+              <img src={company} alt="" className="img-mt-4 mr-2"></img>
+              Augmentum--3年
+            </h6>
+            <hr className="m-0"></hr>
+            <ul className="font-14 mb-2">
+              <li>2015/03 ~ 2018/03</li>
+              <li>软件全栈开发工程师</li>
+            </ul>
           </div>
         </div>
       </div>
