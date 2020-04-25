@@ -51,3 +51,19 @@ main {
   overflow: hidden;
   display: -webkit-box;
 }
+
+.img-mt-5 {
+  margin-top: -5px;
+}
+
+.img-mt-4 {
+  margin-top: -4px;
+}
+
+.img-mt-3 {
+  margin-top: -3px;
+}
+
+.img-mt-2 {
+  margin-top: -2px;
+}
