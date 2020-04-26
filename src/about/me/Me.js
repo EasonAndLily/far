@@ -19,6 +19,7 @@ import company from './company.svg';
 import project from './project.svg';
 import time from './time.svg';
 import feature from './feature.svg';
+import evaluation from './evaluation.svg';
 
 function Me() {
   return (
@@ -115,6 +116,19 @@ function Me() {
               </li>
               <li>推崇优雅简洁的架构设计。</li>
               <li>热爱阅读，每月至少阅读一本书，该习惯已经保持了5年。</li>
+            </ul>
+          </div>
+        </div>
+        <div className="card mt-3 shadow">
+          <h5 className="card-header pb-1 pt-1 pl-2 pr-1">
+            <img src={evaluation} alt="" className="img-mt-4 mr-2"></img>
+            自我评价
+          </h5>
+          <div className="card-body p-2">
+            <ul className="font-14 mb-2 pl-4">
+              <li>喜欢捣腾技术，勇于攻克技术难题。</li>
+              <li>性格开朗，善于交际。</li>
+              <li>偶然脾气急躁且自以为是。</li>
             </ul>
           </div>
         </div>
