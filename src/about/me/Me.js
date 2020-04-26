@@ -242,6 +242,89 @@ function Me() {
             </ul>
           </div>
         </div>
+        <div className="card shadow rounded mt-3">
+          <h5 className="card-header p-2 font-weight-bold">
+            <img src={experience} alt="" className="img-mt-4 mr-2"></img>
+            软件开发工作经验--3.5年
+          </h5>
+          <div class="card-body p-2">
+            <h6 class="card-title mb-1 font-weight-bold">
+              <img src={project} alt="" className="img-mt-4 mr-2"></img>
+              招商银行协同工作平台
+              <img src={time} alt="" className="img-mt-2 mr-1 ml-5"></img>
+              2018/04 ~ 2018/11
+            </h6>
+            <hr className="border border-dark m-0"></hr>
+            <h6 className="mb-0 font-weight-bold">项目描述：</h6>
+            <p class="card-text mb-1 font-14 text-indent-2">
+              招商银行协同工作平台旨在为业务人员、管理人员、开发人员提供易用的电子看板功能、透明的产品管理流程、立体的组织研发管理体系、智能化的研发管理场景，目的是提升项目管理效率，提高管理透明度和降低协作成本，并支持精益研发管理的实施落地。致力于建设对标互联网业界领先的协同工作平台，打造成为招行轻型高效的管理协作平台。
+            </p>
+            <h6 className="mb-0 font-weight-bold">
+              技术栈：Java/RESTful API/Spring boot/Spring Data JPA/Spring Could
+              Contract/BFF/DDD/Microservice/TDD
+            </h6>
+            <h6 className="mb-0 font-weight-bold">主要职责：后端开发工程师</h6>
+            <ul className="font-14 mb-1">
+              <li>负责后端架构的设计，搭建以及技术的选型。</li>
+              <li>负责平台功能的开发，Bug的修复。</li>
+              <li>负责后端服务的上线，产品环境的showcase。</li>
+            </ul>
+            <h6 class="card-title mb-1 font-weight-bold mt-2">
+              <img src={project} alt="" className="img-mt-4 mr-2"></img>
+              <a
+                href="https://newtonsoftware.com/"
+                className="text-dark"
+                target="_blank">
+                Newton
+              </a>
+              <img src={time} alt="" className="img-mt-2 mr-1 ml-5"></img>
+              2016/06 ~ 2018/03
+            </h6>
+            <hr className="border border-dark m-0"></hr>
+            <h6 className="mb-0 font-weight-bold">项目描述：</h6>
+            <p class="card-text mb-1 font-14 text-indent-2">
+              Newton是美国排名前三的招聘的公司,主要业务为人力招聘，猎头，企业人力培训等，累积用户超过100万，涉及2000多家公司，1万多个行业的招聘活动。本来自进入项目以来，一直负责从Action到RestFul的转型，以及新功能的实现。
+            </p>
+            <h6 className="mb-0 font-weight-bold">
+              技术栈：HTML/CSS/JS/Angular/Java/SSH/RESTful API/Jboss
+            </h6>
+            <h6 className="mb-0 font-weight-bold">主要职责：全栈开发工程师</h6>
+            <ul className="font-14 mb-1">
+              <li>负责前后端新功能的开发以及实现。</li>
+              <li>负责旧功能的重构，架构的转型以及Bug修复。</li>
+              <li>部分负责和客户沟通，对接需求等。</li>
+              <li>
+                负责培训新进项目组的开发人员，帮助其快速适应项目，完成工作。
+              </li>
+            </ul>
+            <h6 class="card-title mb-1 font-weight-bold mt-2">
+              <img src={project} alt="" className="img-mt-4 mr-2"></img>
+              <a
+                href="https://www.xataxrs.com"
+                className="text-dark"
+                target="_blank">
+                XRS
+              </a>
+              <img src={time} alt="" className="img-mt-2 mr-1 ml-5"></img>
+              2015/03 ~ 2016/05
+            </h6>
+            <hr className="border border-dark m-0"></hr>
+            <h6 className="mb-0 font-weight-bold">项目描述：</h6>
+            <p class="card-text mb-1 font-14 text-indent-2">
+              Omnitracs是北美的一家以汽车物流为主营业务的公司,业务涉及汽车租赁，货物实时监控，汽车调度，路况检测等，并支持各种浏览设备进行实时监控。本人从2015年初进入该项目组，经历了整个项目的一次完整重构，参与了整个项目的设计、规划、编码、测试、上线等。
+            </p>
+            <h6 className="mb-0 font-weight-bold">
+              技术栈：Asp.net/C#/Jasper/React
+            </h6>
+            <h6 className="mb-0 font-weight-bold">主要职责：全栈开发工程师</h6>
+            <ul className="font-14 mb-1">
+              <li>参与整个Report功能的重构。</li>
+              <li>负责该系统中所有Report的设计、实现、展示、单元测试。</li>
+              <li>负责Report的部署、实施、技术支持。</li>
+              <li>部分负责和客户沟通，对接需求等。</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
