@@ -18,6 +18,7 @@ import experience from './experience.svg';
 import company from './company.svg';
 import project from './project.svg';
 import time from './time.svg';
+import feature from './feature.svg';
 
 function Me() {
   return (
@@ -97,6 +98,23 @@ function Me() {
             <ul className="font-14 mb-2">
               <li>2015/03 ~ 2018/03</li>
               <li>软件全栈开发工程师</li>
+            </ul>
+          </div>
+        </div>
+        <div className="card mt-3 shadow">
+          <h5 className="card-header pb-1 pt-1 pl-2 pr-1">
+            <img src={feature} alt="" className="img-mt-4 mr-2"></img>
+            个人特色
+          </h5>
+          <div className="card-body p-2">
+            <ul className="font-14 mb-2 pl-4">
+              <li>热爱敏捷，追求精益，拥抱开源，喜欢变化。</li>
+              <li>沉醉于简洁代码，乐于重构。</li>
+              <li>
+                喜欢授课，对培训有独到见解，开创“段子驱动教学法”，致力于成为优质IT讲师。
+              </li>
+              <li>推崇优雅简洁的架构设计。</li>
+              <li>热爱阅读，每月至少阅读一本书，该习惯已经保持了5年。</li>
             </ul>
           </div>
         </div>
