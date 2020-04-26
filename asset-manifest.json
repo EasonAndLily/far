@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/far/static/css/main.798e45a9.chunk.css",
-    "main.js": "/far/static/js/main.0a080325.chunk.js",
-    "main.js.map": "/far/static/js/main.0a080325.chunk.js.map",
+    "main.js": "/far/static/js/main.4a42a9a3.chunk.js",
+    "main.js.map": "/far/static/js/main.4a42a9a3.chunk.js.map",
     "runtime-main.js": "/far/static/js/runtime-main.85f1febd.js",
     "runtime-main.js.map": "/far/static/js/runtime-main.85f1febd.js.map",
     "static/css/2.de424728.chunk.css": "/far/static/css/2.de424728.chunk.css",
-    "static/js/2.1eaf0ebc.chunk.js": "/far/static/js/2.1eaf0ebc.chunk.js",
-    "static/js/2.1eaf0ebc.chunk.js.map": "/far/static/js/2.1eaf0ebc.chunk.js.map",
+    "static/js/2.64cd50b8.chunk.js": "/far/static/js/2.64cd50b8.chunk.js",
+    "static/js/2.64cd50b8.chunk.js.map": "/far/static/js/2.64cd50b8.chunk.js.map",
     "index.html": "/far/index.html",
-    "precache-manifest.2fb2beb46cf299357b2baf8e02d9adbe.js": "/far/precache-manifest.2fb2beb46cf299357b2baf8e02d9adbe.js",
+    "precache-manifest.6999e982c5a9986221338fbdb71c8f9e.js": "/far/precache-manifest.6999e982c5a9986221338fbdb71c8f9e.js",
     "service-worker.js": "/far/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/far/static/css/2.de424728.chunk.css.map",
     "static/css/main.798e45a9.chunk.css.map": "/far/static/css/main.798e45a9.chunk.css.map",
-    "static/js/2.1eaf0ebc.chunk.js.LICENSE.txt": "/far/static/js/2.1eaf0ebc.chunk.js.LICENSE.txt",
+    "static/js/2.64cd50b8.chunk.js.LICENSE.txt": "/far/static/js/2.64cd50b8.chunk.js.LICENSE.txt",
     "static/media/CET.svg": "/far/static/media/CET.d960f814.svg",
     "static/media/baby.svg": "/far/static/media/baby.caaaae3d.svg",
     "static/media/certificate.svg": "/far/static/media/certificate.8e8f13e9.svg",
@@ -24,7 +24,9 @@
     "static/media/doc.svg": "/far/static/media/doc.7c591ec2.svg",
     "static/media/education.svg": "/far/static/media/education.2363a436.svg",
     "static/media/email.svg": "/far/static/media/email.def6358f.svg",
+    "static/media/evaluation.svg": "/far/static/media/evaluation.4efc09da.svg",
     "static/media/experience.svg": "/far/static/media/experience.97196f02.svg",
+    "static/media/feature.svg": "/far/static/media/feature.e4115a90.svg",
     "static/media/Category.css": "/far/static/media/open.31c5bb28.svg",
     "static/media/gain.svg": "/far/static/media/gain.12c57641.svg",
     "static/media/gear.svg": "/far/static/media/gear.747f285d.svg",
@@ -46,6 +48,7 @@
     "static/media/open-source.svg": "/far/static/media/open-source.80464675.svg",
     "static/media/phone.svg": "/far/static/media/phone.25006056.svg",
     "static/media/profession.svg": "/far/static/media/profession.a8eb6e6d.svg",
+    "static/media/project.svg": "/far/static/media/project.d0c01aa8.svg",
     "static/media/school.svg": "/far/static/media/school.10007980.svg",
     "static/media/search-btn.svg": "/far/static/media/search-btn.6105adbe.svg",
     "static/media/sign-up.svg": "/far/static/media/sign-up.32c1c34c.svg",
@@ -54,6 +57,7 @@
     "static/media/student.svg": "/far/static/media/student.4599b6c2.svg",
     "static/media/teenager.svg": "/far/static/media/teenager.9885c455.svg",
     "static/media/thought.svg": "/far/static/media/thought.da51f7d8.svg",
+    "static/media/time.svg": "/far/static/media/time.78f76aca.svg",
     "static/media/training.svg": "/far/static/media/training.c90b525d.svg",
     "static/media/video.svg": "/far/static/media/video.5bf7fe0f.svg",
     "static/media/we-chat.svg": "/far/static/media/we-chat.b3982c1a.svg"
@@ -61,8 +65,8 @@
   "entrypoints": [
     "static/js/runtime-main.85f1febd.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.1eaf0ebc.chunk.js",
+    "static/js/2.64cd50b8.chunk.js",
     "static/css/main.798e45a9.chunk.css",
-    "static/js/main.0a080325.chunk.js"
+    "static/js/main.4a42a9a3.chunk.js"
   ]
 }

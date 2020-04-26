@@ -67,3 +67,7 @@ main {
 .img-mt-2 {
   margin-top: -2px;
 }
+
+.text-indent-2 {
+  text-indent: 2em;
+}
