@@ -1,9 +1,9 @@
 .headline {
-  height: 375px;
+  height: 420px;
 }
 
 .headline-poster {
-  height: 220px;
+  height: 270px;
 }
 
 .abstract {
@@ -15,9 +15,9 @@
 
 @media (max-width: 440px) {
   .headline {
-    height: 300px;
+    height: 290px;
   }
   .headline-poster {
-    height: 150px;
+    height: 140px;
   }
 }

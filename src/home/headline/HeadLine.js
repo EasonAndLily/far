@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 let blog = {
   poster:
-    'https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/desert.jpg',
+    'https://icon.qiantucdn.com/20200428/20ba25d57b0a82909a97adec0c0ba3172',
   title: '从零开始学Python',
   abstract:
     'A simple, delicate, and modern theme for the static site generator Hexo. It allows you to set up a single or multiple-column (up to three column) blog with its versatile layout configuration. Additionally, it offers plentiful plugins and pluggable widgets so that you can enable the features you want in no time. And with the all-new API designing, Icarus makes the development of this theme painless for developers and users.',
