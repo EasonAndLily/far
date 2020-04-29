@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Banner from './banner/Banner.js';
+import Banner from '../common/banner/Banner';
 import Intro from './intro/Intro.js';
 import Gain from './gain/Gain.js';
 import Growth from './growth/Growth';
@@ -13,6 +13,8 @@ import doc from './chapter/doc.svg';
 import video from './chapter/video.svg';
 
 let course = {
+  poster:
+    'https://icon.qiantucdn.com/20200429/29970def500796ac35b3538ecd8da9d32',
   title: 'JavaSE 基础课程',
   subTitle: '入门类课程，面向零基础学员',
   difficulty: '入门',

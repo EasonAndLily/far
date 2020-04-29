@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import './detail.css';
+import Banner from '../common/banner/Banner';
 
 let blog = {
   poster:
     'https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/thumbnails/desert.jpg',
   title: '从零开始学Python',
-  description: `# Schema 与 Table
-  本文的主要目标是学习Schema与Table的增删改查等相关操作。
-  ## Schema
+  description: `## Schema
   在MySQL中，我们用命令：*show databases;* 可以看到下面四个数据库(Schema)：
   \`\`\`sql
   +--------------------+
@@ -234,15 +233,28 @@ DROP TABLE table_name;
 ## SQL
 SQL是结构化查询语言(Structured Query Language)的缩写，是一种专门用来与数据库通信的语言。设计SQL的目的是很好地完成一项任务，即提供一种从数据库中读写数据的简单有效的方法。
 所以上面我们写的那些任务都是SQL。
-`
+`,
+};
+
+let course = {
+  title: 'Schema与Table操作',
+  poster:
+    'https://icon.qiantucdn.com/20200428/20ba25d57b0a82909a97adec0c0ba3172',
+  subTitle: '入门类课程，面向零基础学员',
+  difficulty: '入门',
+  duration: '30分钟',
+  learningNumbers: 12345,
+  author: 'Eason',
+  score: 9.8,
+  previous: '数据库概述',
+  behind: '数据基本操作',
 };
 
 function Detail() {
   return (
     <section className="col col-sm-9 opacity-9">
-      <header className="card bg-white shadow">
-        <img src={blog.poster} className="card-img-top" alt="..." />
-
+      <div className="card bg-white shadow">
+        <Banner course={course}></Banner>
         <div className="card-body p-2">
           <ReactMarkdown source={blog.description}></ReactMarkdown>
         </div>
@@ -275,7 +287,7 @@ function Detail() {
             </li>
           </ul>
         </div>
-      </header>
+      </div>
     </section>
   );
 }

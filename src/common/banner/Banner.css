@@ -1,0 +1,22 @@
+.banner-attr {
+  list-style: none;
+}
+
+.banner-attr li:not(:first-child)::before {
+  padding: 2px 2px 2px 2px;
+  content: '|';
+}
+
+@media (max-width: 440px) {
+  .banner {
+    min-height: 140px;
+  }
+
+  .banner-attr li {
+    font-size: 10px;
+  }
+
+  .footer-size {
+    font-size: 10px;
+  }
+}
