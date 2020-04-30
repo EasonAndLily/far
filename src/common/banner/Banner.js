@@ -27,7 +27,7 @@ function Banner({ course }) {
           </div>
         </div>
         <div className="mt-auto d-flex justify-content-between footer-size pl-sm-4 pr-sm-4">
-          {course.previous != '' && course.previous != undefined ? (
+          {course.previous !== '' && course.previous !== undefined ? (
             <Link to="/detail" className="text-white">
               <img src={rightArrow} alt="" className="mr-1 img-mt-2"></img>
               {course.behind}
@@ -35,7 +35,7 @@ function Banner({ course }) {
           ) : (
             ''
           )}
-          {course.behind != '' && course.behind != undefined ? (
+          {course.behind !== '' && course.behind !== undefined ? (
             <Link to="/detail" className="text-white">
               {course.behind}
               <img src={leftArrow} alt="" className="ml-1 img-mt-2"></img>

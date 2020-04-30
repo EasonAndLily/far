@@ -1,7 +1,8 @@
 import React from 'react';
 import Markdown from '../common/markdown/Markdown.js';
-import './detail.css';
 import Banner from '../common/banner/Banner';
+import { Link } from 'react-router-dom';
+import leftArrow from './left_arrow.svg';
 
 let source = `
 # Live demo
@@ -61,40 +62,21 @@ let course = {
 
 function Detail() {
   return (
-    <section className="col col-sm-9 opacity-9">
+    <section className="col col-sm-9 opacity-9 mb-4">
       <div className="card bg-white shadow">
         <Banner course={course}></Banner>
         <div className="card-body p-4">
           <Markdown source={source}></Markdown>
         </div>
-        <div className="card-footer">
-          <ul className="list-inline m-0 d-flex justify-content-end">
-            <li className="list-inline-item">
-              <button
-                type="button"
-                class="p-0 btn btn-default btn-image update-time"
-                disabled>
-                两天前
-              </button>
-            </li>
-            <li className="list-inline-item">
-              <button
-                type="button"
-                class="p-0 btn btn-default btn-image thumds-up">
-                12344
-              </button>
-            </li>
-            <li className="list-inline-item">
-              <button
-                type="button"
-                className="p-0 btn btn-default btn-image share"></button>
-            </li>
-            <li className="list-inline-item">
-              <button
-                type="button"
-                className="p-0 btn btn-default btn-image comment"></button>
-            </li>
-          </ul>
+        <div className="card-footer text-right">
+          {course.behind !== '' && course.behind !== undefined ? (
+            <Link to="/detail" className="text-dark mr-sm-4">
+              {course.behind}
+              <img src={leftArrow} alt="" className="ml-1 img-mt-2"></img>
+            </Link>
+          ) : (
+            ''
+          )}
         </div>
       </div>
     </section>
