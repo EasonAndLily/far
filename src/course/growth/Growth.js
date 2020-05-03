@@ -1,5 +1,9 @@
 import React from 'react';
 import growth from './growth.svg';
+import gradfather from './gradfather.svg';
+import baby from './baby.svg';
+import teenager from './teenager.svg';
+import student from './student.svg';
 
 function Growth({ course }) {
   return (
@@ -14,7 +18,20 @@ function Growth({ course }) {
             <div className="card-header bg-white border-0 font-weight-bold p-1">
               {item.title}
             </div>
-            <img src={item.image} alt="..." />
+            <img
+              src={
+                item.image === 'gradfather'
+                  ? gradfather
+                  : item.image === 'baby'
+                  ? baby
+                  : item.image === 'teenager'
+                  ? teenager
+                  : item.image === 'student'
+                  ? student
+                  : ''
+              }
+              alt="..."
+            />
             <div className="card-body pt-2">
               <h6 className="card-title">{item.name}</h6>
               <p className="card-text font-12">{item.brief}</p>

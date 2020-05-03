@@ -12,36 +12,36 @@ function Chapter({ course }) {
         <img src={chapter} alt="" className="chapter-img"></img>
         课程章节
       </h5>
-      {course.outline.map((outline) => (
+      {course.sections.map((section) => (
         <div className="card border-0">
           <div
             className="card-header p-0 bg-white border-0"
-            id={outline.header}>
+            id={section.header}>
             <button
               className="btn bg-white btn-sm btn-block pl-4 pl-sm-5 text-left font-15"
               type="button"
               data-toggle="collapse"
-              data-target={'#' + outline.id}
+              data-target={'#' + section.id}
               aria-expanded="true"
-              aria-controls={outline.id}>
-              {outline.name}
+              aria-controls={section.id}>
+              {section.name}
             </button>
           </div>
           <div
-            id={outline.id}
+            id={section.id}
             className="collapse bg-white"
-            aria-labelledby={outline.header}
+            aria-labelledby={section.header}
             data-parent="#courseOutline">
             <div className="card-body p-0">
               <ol className="ml-0 ml-sm-5 font-14 pt-1">
-                {outline.nodes.map((node) => (
+                {section.lessions.map((lession) => (
                   <li className="p-1 node mr-1 mr-sm-5">
-                    <img src={node.type} alt="" className="node-img"></img>
+                    <img src={lession.type} alt="" className="node-img"></img>
                     <Link to="/detail" className="text-dark">
-                      {node.name + ' (' + node.time + ')'}
+                      {lession.name + ' (' + lession.time + ')'}
                     </Link>
                     <img
-                      src={node.read ? haveRead : notRead}
+                      src={lession.read ? haveRead : notRead}
                       className="float-right pr-1"
                       alt=""></img>
                   </li>
