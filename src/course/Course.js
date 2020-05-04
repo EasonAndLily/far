@@ -5,8 +5,6 @@ import Intro from './intro/Intro.js';
 import Gain from './gain/Gain.js';
 import Growth from './growth/Growth';
 import Chapter from './chapter/Chapter.js';
-import doc from './chapter/doc.svg';
-import video from './chapter/video.svg';
 import Request from '../tools/fetch_api';
 
 function Course() {
@@ -23,7 +21,7 @@ function Course() {
     request.get('/courses/5ead8b7394705455836fdb7d').then((data) => {
       setCourse(data);
     });
-  });
+  }, []);
   return (
     <section className="col col-sm-9 opacity-9 mb-4">
       <div className="card border-0 shadow">

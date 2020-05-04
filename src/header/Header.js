@@ -40,16 +40,16 @@ function Header() {
           </div>
 
           <button
-            class="d-sm-none d-block border-0 no-outline btn p-1 mt-1 h-75"
+            className="d-sm-none d-block border-0 no-outline btn p-1 mt-1 h-75"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse pl-2"
+            className="collapse navbar-collapse pl-2"
             id="navbarSupportedContent">
             <Category></Category>
           </div>
