@@ -20,8 +20,8 @@ function Detail() {
     content: '',
   });
   useEffect(() => {
-    const request = new Request('http://localhost', 3333);
-    request.get('/lessions/5eb00460ffb764c000a7d90d').then((data) => {
+    const request = new Request('/lessions/5eb00460ffb764c000a7d90d');
+    request.get().then((data) => {
       setLession(data);
     });
   }, []);

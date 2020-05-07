@@ -1,11 +1,13 @@
+import config from './config.json';
+
 class Request {
-  constructor(hostURL, port) {
-    this.url = new URL(hostURL);
-    this.url.port = port;
+  constructor(pathName) {
+    this.url = new URL(config.serverURL);
+    this.url.port = config.port;
+    this.url.pathname = pathName;
   }
 
-  get(pathName, param) {
-    this.url.pathname = pathName;
+  get(param) {
     if (param) {
       this.url.search = new URLSearchParams(param);
     }

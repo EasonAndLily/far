@@ -17,8 +17,8 @@ function Course() {
     growth: [],
   });
   useEffect(() => {
-    const request = new Request('http://localhost', 3333);
-    request.get('/courses/5ead8b7394705455836fdb7d').then((data) => {
+    const request = new Request('/courses/5ead8b7394705455836fdb7d');
+    request.get().then((data) => {
       setCourse(data);
     });
   }, []);
