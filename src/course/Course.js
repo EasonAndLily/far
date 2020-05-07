@@ -22,6 +22,7 @@ function Course() {
       setCourse(data);
     });
   }, []);
+  const id = '5eb00460ffb764c000a7d90d';
   return (
     <section className="col col-sm-9 opacity-9 mb-4">
       <div className="card border-0 shadow">
@@ -39,7 +40,7 @@ function Course() {
         <div className="p-3">
           <Link
             className="btn btn-outline-dark btn-lg btn-block rounded-pill"
-            to="/detail">
+            to="/detail/5eb00460ffb764c000a7d90d">
             点击这里开始学习啦!
           </Link>
         </div>

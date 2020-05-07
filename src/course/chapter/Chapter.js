@@ -54,7 +54,7 @@ function Chapter({ course }) {
                         }
                         alt=""
                         className="node-img"></img>
-                      <Link to="/detail" className="text-dark">
+                      <Link to={`/detail/${lession._id}`} className="text-dark">
                         {lession.name + ' (' + lession.time + ')'}
                       </Link>
                       <img

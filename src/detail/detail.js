@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Markdown from '../common/markdown/Markdown.js';
 import Banner from '../common/banner/Banner';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import leftArrow from './left_arrow.svg';
 import Request from '../tools/fetch_api';
 
@@ -19,12 +19,13 @@ function Detail() {
     behind: '',
     content: '',
   });
+  const { id } = useParams();
   useEffect(() => {
-    const request = new Request('/lessions/5eb00460ffb764c000a7d90d');
+    const request = new Request('/lessions/' + id);
     request.get().then((data) => {
       setLession(data);
     });
-  }, []);
+  }, [id]);
   return (
     <section className="col col-sm-9 opacity-9 mb-4">
       <div className="card bg-white shadow">
