@@ -16,7 +16,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router basename="/">
       <Header></Header>
-      <main className="container mt-5 pt-4">
+      <main className="container mt-5 pt-4 bg">
         <article className="row">
           <Sidebar></Sidebar>
           <Switch>
