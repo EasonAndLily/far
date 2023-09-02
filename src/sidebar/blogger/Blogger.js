@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './myself.jpg';
+import logo from '../../logo.png';
 import location from './location.svg';
 import github from './github.svg';
 import gitlab from './gitlab.svg';
@@ -13,24 +13,24 @@ function Blogger() {
       <figure className="mt-2">
         <img
           src={logo}
-          className="figure-img img-fluid rounded-circle w-50 mx-auto d-block"
-          alt="李景华头像"
+          className="figure-img img-fluid rounded-circle w-50 mx-auto d-block bg-secondary"
+          alt="捷登研效社区"
         />
         <figcaption className="figure-caption">
-          <h5 className="card-title text-center">李景华</h5>
+          <h5 className="card-title text-center font-weight-bold text-dark">捷登研效社区</h5>
           <h6 className="card-subtitle mb-2 text-muted text-center">
-            <small className="text-muted">IT咨询师/培训师</small>
+            <small className="font-weight-bold text-dark">研发效能/敏捷咨询/IT培训</small>
           </h6>
           <h6 className="card-subtitle mb-2 text-muted text-center">
             <img src={location} alt="location" />
-            <small className="text-muted">武汉，中国湖北</small>
+            <small className="text-muted font-italic">武汉，中国湖北</small>
           </h6>
         </figcaption>
         <div className="card-body pb-0">
           <Link
             to="/about_me"
             className="btn btn-outline-dark btn-sm btn-block rounded-pill">
-            了解我
+            了解我们
           </Link>
           <ul className="list-inline mb-0 mt-2 text-center">
             <li className="list-inline-item">
