@@ -1,9 +1,5 @@
 import React from 'react';
 import './Category.css';
-import gear from './gear.svg';
-import thought from './thought.svg';
-import cleanCode from './clean-code.svg';
-import openSource from './open-source.svg';
 import { Link } from 'react-router-dom';
 
 class Category extends React.Component {
@@ -15,7 +11,6 @@ class Category extends React.Component {
         {
           id: '1',
           title: '高效能产品交付模式',
-          icon: gear,
           subTitles: [
             '开篇词（2篇）',
             '设计高效能组织架构（5篇）',
@@ -28,7 +23,6 @@ class Category extends React.Component {
         {
           id: '2',
           title: '架构设计之道',
-          icon: thought,
           subTitles: [
             'Java SE 教程',
             'JavaScript 教程',
@@ -39,7 +33,6 @@ class Category extends React.Component {
         {
           id: '3',
           title: '整洁代码与重构',
-          icon: cleanCode,
           subTitles: [
             'Java SE 教程',
             'JavaScript 教程',
@@ -50,7 +43,6 @@ class Category extends React.Component {
         {
           id: '4',
           title: 'Java 响应式编程',
-          icon: openSource,
           subTitles: [
             'Java SE 教程',
             'JavaScript 教程',
