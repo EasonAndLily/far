@@ -14,18 +14,20 @@ class Category extends React.Component {
       categories: [
         {
           id: '1',
-          title: '编程语言基础',
+          title: '高效能产品交付模式',
           icon: gear,
           subTitles: [
-            'Java SE 教程',
-            'JavaScript 教程',
-            'Python3 教程',
-            'Node 教程',
+            '开篇词（2篇）',
+            '设计高效能组织架构（5篇）',
+            '聚焦高价值业务模型（10篇）',
+            '打造高质量交付模式（8篇）',
+            '共创合理的监测指标（5篇）',
+            '构建舒适的团队文化（2篇）',
           ],
         },
         {
           id: '2',
-          title: '编程设计思维',
+          title: '架构设计之道',
           icon: thought,
           subTitles: [
             'Java SE 教程',
@@ -47,7 +49,7 @@ class Category extends React.Component {
         },
         {
           id: '4',
-          title: '优秀开源项目',
+          title: 'Java 响应式编程',
           icon: openSource,
           subTitles: [
             'Java SE 教程',
@@ -64,7 +66,6 @@ class Category extends React.Component {
     return this.state.categories.map((item) => (
       <details id={item.id}>
         <summary className="pt-1 pb-1">
-          <img className="mr-2" src={item.icon} alt="gear" />
           {item.title}
         </summary>
         {item.subTitles.map((sub) => (

@@ -14,20 +14,15 @@
   background-color: #c1c1c1;
 }
 
-.fold {
-  right: 50px;
-  margin-top: 5px;
-  position: absolute;
-}
-
-details {
-  position: relative;
-}
-
 details > summary {
   outline: none;
   font-size: 1.15em;
   padding-left: 12%;
+  list-style-image: url('./fold.svg');
+}
+
+details[open] summary {
+  list-style-image: url('./open.svg');
 }
 
 details > summary:hover {
@@ -38,25 +33,12 @@ details > summary:hover {
 details > summary::-webkit-details-marker {
   display: none;
 }
-details > summary:after {
-  content: url(./fold.svg);
-  font-size: 10px;
-  text-align: center;
-  width: 12px;
-  position: absolute;
-  top: 10px;
-  right: 0px;
-  padding-right: 15%;
-}
-
-details[open] > summary:after {
-  content: url(./open.svg);
-}
 
 details p {
   padding: 1px 0px 1px 25%;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
+  margin-bottom: 8px;
 }
 
 details p:hover {
