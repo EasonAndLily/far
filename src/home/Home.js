@@ -1,6 +1,7 @@
 import React from 'react';
 import Headline from './headline/HeadLine';
 import Overview from './overview/Overview';
+import Content from './content/Content'
 
 let thumbnails = [
   {
@@ -77,8 +78,10 @@ function Home() {
   return (
     <section className="col opacity-9">
       <Headline></Headline>
-      <Overview title="编程语言基础教程" nav={nav}></Overview>
-      <Overview title="编程语言基础教程" nav={nav}></Overview>
+      {/* <Overview title="编程语言基础教程" nav={nav}></Overview>
+      <Overview title="编程语言基础教程" nav={nav}></Overview> */}
+      <Content></Content>
+      <Content></Content>
     </section>
   );
 }
