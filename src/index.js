@@ -20,7 +20,7 @@ ReactDOM.render(
         <article className="row">
           <Sidebar></Sidebar>
           <Switch>
-            <Route path="/detail/:id">
+            <Route path="/detail">
               <Detail></Detail>
             </Route>
             <Route path="/course">
