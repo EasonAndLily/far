@@ -1,4 +1,3 @@
 {
-  "serverURL": "http://localhost",
-  "port": 3333
+  "serverURL": "https://raw.githubusercontent.com"
 }
