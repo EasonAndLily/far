@@ -1,3 +1,8 @@
+@font-face {
+  font-family: MyXingTi;
+  src: url('./xingshu.ttf');
+}
+
 html,
 body {
   width: 100%;
@@ -5,7 +10,7 @@ body {
   margin: 0;
   overflow: auto;
   scrollbar-color: #c1c1c1 #f8f9fa;
-  font-family: STXingkai, STKaiti, Arial, Helvetica, sans-serif !important;
+  font-family: MyXingTi, STXingkai, STKaiti, Arial, Helvetica, sans-serif !important;
 }
 
 body::-webkit-scrollbar {
@@ -53,6 +58,7 @@ main {
 .font-14 {
   font-size: 14px;
 }
+
 .font-15 {
   font-size: 15px;
 }
