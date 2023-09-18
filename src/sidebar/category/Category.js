@@ -1,69 +1,27 @@
 import React from 'react';
 import './Category.css';
 import { Link } from 'react-router-dom';
+import courses from '../../config/courses.json';
 
 class Category extends React.Component {
   constructor(props) {
     super(props);
     this.generateCategoryUI = this.generateCategoryUI.bind(this);
     this.state = {
-      categories: [
-        {
-          id: '1',
-          title: '高效能产品交付模式',
-          subTitles: [
-            '开篇词（2篇）',
-            '设计高效能组织架构（5篇）',
-            '聚焦高价值业务模型（10篇）',
-            '打造高质量交付模式（8篇）',
-            '共创合理的监测指标（5篇）',
-            '构建舒适的团队文化（2篇）',
-          ],
-        },
-        {
-          id: '2',
-          title: '架构设计之道',
-          subTitles: [
-            'Java SE 教程',
-            'JavaScript 教程',
-            'Python3 教程',
-            'Node 教程',
-          ],
-        },
-        {
-          id: '3',
-          title: '整洁代码与重构',
-          subTitles: [
-            'Java SE 教程',
-            'JavaScript 教程',
-            'Python3 教程',
-            'Node 教程',
-          ],
-        },
-        {
-          id: '4',
-          title: 'Java 响应式编程',
-          subTitles: [
-            'Java SE 教程',
-            'JavaScript 教程',
-            'Python3 教程',
-            'Node 教程',
-          ],
-        },
-      ],
+      courses: courses
     };
   }
 
   generateCategoryUI() {
-    return this.state.categories.map((item) => (
-      <details id={item.id}>
+    return this.state.courses.map((item) => (
+      <details key={item.id}>
         <summary className="pt-1 pb-1">
-          {item.title}
+          {item.name}
         </summary>
-        {item.subTitles.map((sub) => (
-          <p>
+        {item.categories.map((category) => (
+          <p key={category.id}>
             <Link to="/course" className="text-dark">
-              {sub}
+              {category.type === "folder" ? category.title + "（"+ category.articles.length +"篇）" : category.title}
             </Link>
           </p>
         ))}
