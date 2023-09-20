@@ -11,6 +11,7 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Detail from './detail/detail';
 import Course from './course/Course';
 import About from './about/About.js';
+import Search from './home/search/Search.js';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,8 @@ ReactDOM.render(
         <article className="row">
           <Sidebar></Sidebar>
           <Switch>
+            <Route path="/category/:id/articles" component={Search}>
+            </Route>
             <Route path="/detail">
               <Detail></Detail>
             </Route>

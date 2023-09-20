@@ -1,27 +1,31 @@
 import React from 'react';
-import HeadImg from './head-image.jpeg';
-import HeadImg2 from './head-image2.jpeg';
 import './Content.css';
 
-function Content() {
+function Content(props) {
+  const firstArticle = props.firstArticle;
+  const secondArticle = props.secondArticle;
   return (
     <div className="row mr-0 ml-0 mb-3">
-      <div className="card content-card col-12 col-md p-0 mr-0 mr-md-2 mb-3 mb-md-0">
-          <img className="card-img-top" src={HeadImg2} alt="Card image cap" />
-          <div className="card-body">
-            <h5 className="card-title">高效能组织架构</h5>
-            <p className="card-text">相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！</p>
-            <a href="#" className="btn btn-outline-dark btn-sm">开始学习</a>
-          </div>
-        </div>
-      <div className="card content-card col-12 col-md p-0 ml-md-2 ml-0">
-        <img className="card-img-top" src={HeadImg} alt="Card image cap" />
+      <div className={`card content-card col-12 ${secondArticle === null ? 'col-md-6' : 'col-md'} p-0 mr-0 mr-md-2 mb-3 mb-md-0`}>
+        <img className="card-img-top" src={firstArticle.poster} alt="Card image cap" />
         <div className="card-body">
-          <h5 className="card-title">高效能测试</h5>
-          <p className="card-text">相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！</p>
+          <h5 className="card-title">{firstArticle.title}</h5>
+          <p className="card-text">{firstArticle.summary}</p>
           <a href="#" className="btn btn-outline-dark btn-sm">开始学习</a>
         </div>
       </div>
+      {
+        secondArticle == null ? "" :
+          (<div className="card content-card col-12 col-md p-0 ml-md-2 ml-0">
+            <img className="card-img-top" src={secondArticle.poster} alt="Card image cap" />
+            <div className="card-body">
+              <h5 className="card-title">{secondArticle.title}</h5>
+              <p className="card-text">{secondArticle.summary}</p>
+              <a href="#" className="btn btn-outline-dark btn-sm">开始学习</a>
+            </div>
+          </div>)
+      }
+
     </div>
   );
 }

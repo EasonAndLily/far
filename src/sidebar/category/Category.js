@@ -2,14 +2,21 @@ import React from 'react';
 import './Category.css';
 import { Link } from 'react-router-dom';
 import courses from '../../config/courses.json';
+import { Route } from 'react-router-dom';
 
 class Category extends React.Component {
   constructor(props) {
     super(props);
     this.generateCategoryUI = this.generateCategoryUI.bind(this);
+    this.handleClick = this.handleClick.bind(this);
     this.state = {
       courses: courses
     };
+  }
+
+  handleClick(id) {
+    debugger;
+    this.props.history.push(`/category/${id}/articles`);
   }
 
   generateCategoryUI() {
@@ -18,13 +25,18 @@ class Category extends React.Component {
         <summary className="pt-1 pb-1">
           {item.name}
         </summary>
-        {item.categories.map((category) => (
-          <p key={category.id}>
-            <Link to="/course" className="text-dark">
-              {category.type === "folder" ? category.title + "（"+ category.articles.length +"篇）" : category.title}
-            </Link>
-          </p>
-        ))}
+        {
+          item.categories.map((category) => (
+            <Route key={category.id} render={({ history }) => {
+              return (<p key={category.id} onClick={() => history.push(`/category/${category.id}/articles`)}>
+                <Link to={`/category/${category.id}/articles`} className="text-dark">
+                  {category.type === "folder" ? category.title + "（" + category.articles.length + "篇）" : category.title}
+                </Link>
+              </p>)
+            }} />
+          ))
+        }
+
       </details>
     ));
   }

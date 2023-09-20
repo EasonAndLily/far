@@ -1,0 +1,32 @@
+{
+    "headArticle": {
+        "id": "001",
+        "title": "从零开始学Python",
+        "poster": "https://icon.qiantucdn.com/20200428/20ba25d57b0a82909a97adec0c0ba3172",
+        "address": "",
+        "summary": "A simple, delicate, and modern theme for the static site generator Hexo. It allows you to set up a single or multiple-column (up to three column) blog with its versatile layout configuration. Additionally, it offers plentiful plugins and pluggable widgets so that you can enable the features you want in no time. And with the all-new API designing, Icarus makes the development of this theme painless for developers and users."
+    },
+    "articles": [
+        {
+            "id": "002",
+            "title": "狼人的诞生",
+            "poster": "https://channelplus.ner.gov.tw/api/images/62c19824785c370007c124a9/1600/jpeg",
+            "address": "",
+            "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+        },
+        {
+            "id": "003",
+            "title": "是否存在一颗银弹？",
+            "poster": "https://s1.locimg.com/2023/09/19/df4973ae9fdd1.jpeg",
+            "address": "",
+            "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
+        },
+        {
+            "id": "004",
+            "title": "高效能团队架构",
+            "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
+            "address": "",
+            "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
+        }
+    ]
+}
