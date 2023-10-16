@@ -1,10 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Header.css';
 import logo from '../logo.png';
 import searchBtn from './search-btn.svg';
 import Category from '../sidebar/category/Category.js';
+import { useHistory } from "react-router-dom";
 
 function Header() {
+  let [value, setValue] = useState('');
+  const history = useHistory();
+ 
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  }
+
+  const search = () => {
+    history.push(`/search?value=${value}`);
+  }
+
   return (
     <header className="bg-white shadow opacity-9 navbar-fixed-top">
       <nav className="container navbar navbar-light bg-white p-0">
@@ -22,8 +34,10 @@ function Header() {
                 className="search-input mt-2"
                 type="search"
                 placeholder="输入内容检索关键字"
+                value={value} 
+                onChange={handleChange} 
               />
-              <button className="btn btn-sm search-btn" type="submit">
+              <button className="btn btn-sm search-btn" type="submit" onClick={search}>
                 <img src={searchBtn} alt="Search"></img>
               </button>
             </div>

@@ -23,6 +23,8 @@ ReactDOM.render(
           <Switch>
             <Route path="/category/:id/articles" component={Search}>
             </Route>
+            <Route path="/search" component={Search}>
+            </Route>
             <Route path="/detail">
               <Detail></Detail>
             </Route>

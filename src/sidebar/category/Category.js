@@ -15,7 +15,6 @@ class Category extends React.Component {
   }
 
   handleClick(id) {
-    debugger;
     this.props.history.push(`/category/${id}/articles`);
   }
 

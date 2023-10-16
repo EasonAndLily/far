@@ -13,11 +13,27 @@ class Search extends React.Component {
     }
 
     setCourse(props) {
+        if (props.match.path.includes('search')) {
+            const search = props.location.search;
+            const params = new URLSearchParams(search);
+            const keyword = params.get('value');
+            console.log();
+            const articles = courses.flatMap(course => course.categories)
+            .flatMap(item => item.articles).filter(it => it && it.title.includes(keyword)); 
+            this.state = {
+                articles: articles
+            };
+            return;
+        }
+
         const categoryId = props.match.params.id;
-        const category = courses.flatMap(course => course.categories).find(category => category.id === categoryId);
-        this.state = {
-            articles: category.articles
-        };
+        if (categoryId) {
+            const category = courses.flatMap(course => course.categories)
+                .find(category => category.id === categoryId);
+            this.state = {
+                articles: category.articles
+            };
+        }
     }
 
     render() {
