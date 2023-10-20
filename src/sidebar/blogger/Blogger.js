@@ -29,8 +29,8 @@ function Blogger() {
         <div className="card-body pb-0">
           <Link
             to="/about_me"
-            className="btn btn-outline-dark btn-sm btn-block rounded-pill">
-            了解我们
+            className="btn btn-outline-dark btn-sm btn-block rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            联系我们
           </Link>
           <ul className="list-inline mb-0 mt-2 text-center">
             <li className="list-inline-item">
