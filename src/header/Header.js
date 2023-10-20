@@ -17,6 +17,12 @@ function Header() {
     history.push(`/search?value=${value}`);
   }
 
+  const enter = (event) => {
+    if (event.key === 'Enter') {
+      history.push(`/search?value=${value}`);
+    }
+  }
+
   return (
     <header className="bg-white shadow opacity-9 navbar-fixed-top">
       <nav className="container navbar navbar-light bg-white p-0">
@@ -35,7 +41,8 @@ function Header() {
                 type="search"
                 placeholder="输入内容检索关键字"
                 value={value} 
-                onChange={handleChange} 
+                onChange={handleChange}
+                onKeyDown={enter} 
               />
               <button className="btn btn-sm search-btn" type="submit" onClick={search}>
                 <img src={searchBtn} alt="Search"></img>
