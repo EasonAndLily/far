@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from './me/Me';
+// import Me from './me/Me';
 
 function About() {
   return (

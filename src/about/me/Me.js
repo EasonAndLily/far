@@ -275,7 +275,8 @@ function Me() {
               <a
                 href="https://newtonsoftware.com/"
                 className="text-dark"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 Newton
               </a>
               <img src={time} alt="" className="img-mt-2 mr-1 ml-5"></img>
@@ -303,7 +304,8 @@ function Me() {
               <a
                 href="https://www.xataxrs.com"
                 className="text-dark"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 XRS
               </a>
               <img src={time} alt="" className="img-mt-2 mr-1 ml-5"></img>

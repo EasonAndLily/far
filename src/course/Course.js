@@ -22,7 +22,7 @@ function Course() {
       setCourse(data);
     });
   }, []);
-  const id = '5eb00460ffb764c000a7d90d';
+
   return (
     <section className="col col-sm-9 opacity-9 mb-4">
       <div className="card border-0 shadow">

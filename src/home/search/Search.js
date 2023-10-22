@@ -19,12 +19,11 @@ class Search extends React.Component {
             const search = props.location.search;
             const params = new URLSearchParams(search);
             const keyword = params.get('value');
-            console.log();
             const articles = courses.flatMap(course => course.categories)
                 .flatMap(item => item.articles).filter(it => it && it.title.includes(keyword));
-            this.state = {
+            this.setState({
                 articles: articles
-            };
+            });
             return;
         }
 
@@ -32,9 +31,9 @@ class Search extends React.Component {
         if (categoryId) {
             const category = courses.flatMap(course => course.categories)
                 .find(category => category.id === categoryId);
-            this.state = {
+            this.setState({
                 articles: category.articles
-            };
+            });
         }
     }
 
@@ -42,9 +41,9 @@ class Search extends React.Component {
         return (
             <section className="col opacity-9">
                 {
-                    this.state.articles.length == 0 ?
+                    this.state.articles.length === 0 ?
                         <figure className="figure w-100 text-center">
-                            <img src={NoData} className="figure-img img-fluid"></img>
+                            <img src={NoData} className="figure-img img-fluid" alt="没有数据"></img>
                             <figcaption className="figure-caption text-center">
                                 <h3 className='float-title'>暂无相关文章，敬请期待！</h3>
                             </figcaption>

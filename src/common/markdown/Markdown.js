@@ -16,7 +16,7 @@ function Markdown({ source }) {
         <hr></hr>
       </div>,
       img(props) {
-        return <img {...props} style={{ maxWidth: '100%' }}></img>
+        return <img {...props} style={{ maxWidth: '100%' }} alt=""></img>
       },
       code({ node, inline, className, children, ...props }) {
         const match = /language-(\w+)/.exec(className || "");
