@@ -8,6 +8,9 @@ class Search extends React.Component {
     constructor(props) {
         super(props);
         this.setCourse(this.props);
+        this.state = {
+            articles: []
+        }
     }
 
     componentWillReceiveProps(nextProps) {
