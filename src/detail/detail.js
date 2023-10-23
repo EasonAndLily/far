@@ -12,7 +12,7 @@ function Detail() {
   }, []);
 
   return (
-    <section className="col col-sm-9 opacity-9 mb-4">
+    <section className="opacity-9 mb-4">
       <div className="card bg-white shadow">
         <div className="card-body p-4">
           <Markdown source={content}></Markdown>

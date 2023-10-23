@@ -5,7 +5,7 @@ import homeData from '../config/home.json';
 
 function Home() {
   return (
-    <section className="col opacity-9">
+    <section>
       <Headline article={homeData.headArticle}></Headline>
       {
         homeData.articles.reduce((accumulator, currentValue, currentIndex, array) => {

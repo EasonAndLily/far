@@ -42,7 +42,7 @@ class Search extends React.Component {
 
     render() {
         return (
-            <section className="col opacity-9">
+            <section>
                 {
                     this.state.articles.length === 0 ?
                         <figure className="figure w-100 text-center">

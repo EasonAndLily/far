@@ -18,8 +18,11 @@ ReactDOM.render(
     <Router basename="/">
       <Header></Header>
       <main className="container mt-5 pt-4 bg">
-        <article className="row">
+        <div className='row'>
+        <aside className="col-md-3 d-none d-md-block opacity-9">
           <Sidebar></Sidebar>
+        </aside>
+        <article className="col-md-9 opacity-9 mb-4">
           <Switch>
             <Route path="/category/:id/articles" component={Search}>
             </Route>
@@ -39,6 +42,8 @@ ReactDOM.render(
             </Route>
           </Switch>
         </article>
+        </div>
+        
       </main>
     </Router>
   </React.StrictMode>,

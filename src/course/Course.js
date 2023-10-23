@@ -24,7 +24,7 @@ function Course() {
   }, []);
 
   return (
-    <section className="col col-sm-9 opacity-9 mb-4">
+    <section className="opacity-9 mb-4">
       <div className="card border-0 shadow">
         <Banner course={course}></Banner>
         <div className="row row-cols-1 row-cols-md-2 p-1">

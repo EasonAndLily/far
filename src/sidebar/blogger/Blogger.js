@@ -14,10 +14,10 @@ function Blogger() {
         <img
           src={logo}
           className="figure-img img-fluid rounded-circle w-50 mx-auto d-block bg-secondary"
-          alt="捷登研效社区"
+          alt="捷登研效社"
         />
         <figcaption className="figure-caption">
-          <h5 className="card-title text-center font-weight-bold text-dark">捷登研效社区</h5>
+          <h5 className="card-title text-center font-weight-bold text-dark">捷登研效社</h5>
           <h6 className="card-subtitle mb-2 text-muted text-center">
             <small className="font-weight-bold text-dark">研发效能/敏捷咨询/IT培训</small>
           </h6>

@@ -30,7 +30,7 @@ function Header() {
           <div className="col-2 ml-2">
             <a className="navbar-brand" href="##">
               <img src={logo} alt="logo" className="logo ml-1 mr-2" />
-              <span className="d-none d-sm-inline-block logo-title">捷登社区</span>
+              <span className="d-none d-sm-inline-block logo-title">捷登研效社</span>
             </a>
           </div>
 
