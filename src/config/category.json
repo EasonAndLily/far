@@ -6,14 +6,14 @@
             {
                 "id": "1.1",
                 "title": "狼人的诞生",
-                "poster": "https://channelplus.ner.gov.tw/api/images/62c19824785c370007c124a9/1600/jpeg",
+                "poster": "https://s1.locimg.com/2023/10/24/be8aed8afc63c.png",
                         "address": "",
                         "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
             },
             {
                 "id": "1.2",
                 "title": "是否存在一颗银弹？",
-                "poster": "https://s1.locimg.com/2023/09/19/df4973ae9fdd1.jpeg",
+                "poster": "https://s1.locimg.com/2023/10/24/1cdc63029e27b.png",
                 "address": "",
                 "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
             }
