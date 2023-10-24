@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Content from '../content/Content'
-import courses from '../../config/courses.json';
+import categories from '../../config/category.json';
 import NoData from './nodata-modified.png';
 import './Search.css';
 
@@ -15,16 +15,15 @@ function Search(props) {
             const search = props.location.search;
             const params = new URLSearchParams(search);
             const keyword = params.get('value');
-            const items = courses.flatMap(course => course.categories)
-                .flatMap(item => item.articles).filter(it => it && it.title.includes(keyword));
+            const items = categories.flatMap(category => category.articles)
+                .filter(it => it && it.title.includes(keyword));
             setArticles(items);
             return;
         }
 
         const categoryId = props.match.params.id;
         if (categoryId) {
-            const category = courses.flatMap(course => course.categories)
-                .find(category => category.id === categoryId);
+            const category = categories.find(category => category.id === categoryId);
             setArticles(category.articles);
         }
     }

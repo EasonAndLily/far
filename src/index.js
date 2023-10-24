@@ -28,7 +28,7 @@ ReactDOM.render(
             </Route>
             <Route path="/search" component={Search}>
             </Route>
-            <Route path="/detail">
+            <Route path="/articles/:id">
               <Detail></Detail>
             </Route>
             <Route path="/course">

@@ -11,11 +11,15 @@ function Blogger() {
   return (
     <header className="card border-0 shadow">
       <figure className="mt-2">
-        <img
-          src={logo}
-          className="figure-img img-fluid rounded-circle w-50 mx-auto d-block bg-secondary"
-          alt="捷登研效社"
-        />
+        <Link
+          to="/">
+          <img
+            src={logo}
+            className="figure-img img-fluid rounded-circle w-50 mx-auto d-block bg-secondary"
+            alt="捷登研效社"
+          />
+        </Link>
+
         <figcaption className="figure-caption">
           <h5 className="card-title text-center font-weight-bold text-dark">捷登研效社</h5>
           <h6 className="card-subtitle mb-2 text-muted text-center">

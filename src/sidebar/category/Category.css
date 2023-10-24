@@ -16,8 +16,7 @@
 
 details > summary {
   outline: none;
-  font-size: 1.15em;
-  padding-left: 12%;
+  font-size: 1em;
   list-style-image: url('./fold.svg');
 }
 
