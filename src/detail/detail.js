@@ -13,7 +13,7 @@ function Detail(props) {
       const request = new Request(article.address);
       request.get().then((text) => setContent(text));
     }
-  }, []);
+  }, [props.location]);
 
   return (
     <section className="opacity-9 mb-4">
