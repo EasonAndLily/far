@@ -22,7 +22,7 @@ function Category(props) {
         item.selected = true;
       }
     });
-    history.push(`/category/${category.id}/articles`);
+    history.push(`/category/${category.id}`);
   }
 
   return (
