@@ -13,7 +13,7 @@ function Content(props) {
           <h5 className="card-title">{firstArticle.title}</h5>
           <p className="card-text">{firstArticle.summary}</p>
           <Link
-            to="/articles/id"
+            to={`/articles/${firstArticle.id}`}
             className="btn btn-outline-dark mt-2 btn-sm">
             开始学习
           </Link>
@@ -27,7 +27,7 @@ function Content(props) {
               <h5 className="card-title">{secondArticle.title}</h5>
               <p className="card-text">{secondArticle.summary}</p>
               <Link
-                to="/articles/id"
+                to={`/articles/${secondArticle.id}`}
                 className="btn btn-outline-dark mt-2 btn-sm">
                 开始学习
               </Link>

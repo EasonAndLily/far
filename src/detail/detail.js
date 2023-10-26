@@ -1,14 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Markdown from '../common/markdown/Markdown.js';
 import Request from '../tools/fetch_api';
+import categories from '../config/category.json';
 
-function Detail() { 
+function Detail(props) { 
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    // const request = new Request('/skill-courses/java-reactive-course/main/courses/1.%20%E5%93%8D%E5%BA%94%E5%BC%8F%E6%A6%82%E8%BF%B0.md');
-    const request = new Request('/articles/1.opening_words/1.1The_Birth_of_the_Werewolf.md');
-    request.get().then((text) => setContent(text));
+    const articleId = props.match.params.id;
+    const article = categories.flatMap(category => category.articles).find(article => article.id === articleId);
+    if (article.address) {
+      const request = new Request(article.address);
+      request.get().then((text) => setContent(text));
+    }
   }, []);
 
   return (
@@ -17,16 +21,6 @@ function Detail() {
         <div className="card-body p-4">
           <Markdown source={content}></Markdown>
         </div>
-        {/* <div className="card-footer text-right">
-          {lession.behind !== '' && lession.behind !== undefined ? (
-            <Link to="/detail" className="text-dark mr-sm-4">
-              {lession.behind}
-              <img src={leftArrow} alt="" className="ml-1 img-mt-2"></img>
-            </Link>
-          ) : (
-            ''
-          )}
-        </div> */}
       </div>
     </section>
   );
