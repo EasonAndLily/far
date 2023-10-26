@@ -7,7 +7,7 @@ function Detail() {
 
   useEffect(() => {
     // const request = new Request('/skill-courses/java-reactive-course/main/courses/1.%20%E5%93%8D%E5%BA%94%E5%BC%8F%E6%A6%82%E8%BF%B0.md');
-    const request = new Request('skill-courses/java-reactive-course/main/courses/2.%20Java%20Reactive%20Streams.md');
+    const request = new Request('/jade-hub-articles/main/articles/1.opening_words/1.1The_Birth_of_the_Werewolf.md');
     request.get().then((text) => setContent(text));
   }, []);
 
