@@ -8,14 +8,14 @@
     },
     "articles": [
         {
-            "id": "002",
+            "id": "1.1",
             "title": "狼人的诞生",
             "poster": "https://s1.locimg.com/2023/10/24/be8aed8afc63c.png",
             "address": "/articles/1.opening_words/1.1The_Birth_of_the_Werewolf.md",
             "summary": "在所有恐怖民间传说的妖怪中，最可怕的是人狼，因为他们可以完全出乎意料的从熟悉的面孔变成可怕的怪物。大家熟悉的软件项目具有一些人狼的特性，常常看似简单明了的东西，去有可能变成一个落后进度、超出预期、存在大量缺陷的怪物。"
         },
         {
-            "id": "003",
+            "id": "1.2",
             "title": "是否存在一颗银弹？",
             "poster": "https://s1.locimg.com/2023/10/24/1cdc63029e27b.png",
             "address": "/articles/1.opening_words/1.2A_Silver_Bullet.md",
