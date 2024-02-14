@@ -33,9 +33,9 @@
             {
                 "id": "2.2",
                 "title": "康威定律",
-                "poster": "https://s1.locimg.com/2023/10/24/6724f77a535df.png",
-                "address": "",
-                "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
+                "poster": "https://s1.locimg.com/2024/02/14/7e23652f5f98e.jpg",
+                "address": "/articles/2.high_performance_organization/2.2Conway_Law.md",
+                "summary": "你想设计什么的软件架构，就先设计什么样的组织架构！这是康威定律的经典论据，你是否从来没有认识到组织结构能决定软件架构？想想看，软件组织中有多少违背康威定律的地方？如何巧妙的应用康威定律知道我们的软件设计？"
             },
             {
                 "id": "2.3",
