@@ -39,10 +39,10 @@
             },
             {
                 "id": "2.3",
-                "title": "高效能组织架构",
-                "poster": "https://s1.locimg.com/2023/10/24/3a08cf88b2541.png",
-                "address": "",
-                "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
+                "title": "高效能组织模式",
+                "poster": "https://s1.locimg.com/2024/02/15/93eec6fe65d6d.jpeg",
+                "address": "/articles/2.high_performance_organization/2.2Conway_Law.md",
+                "summary": "《康威定律》使我们深刻的认识到“如果系统的架构和组织结构不一致，那么组织结构将成为赢家！” 高效能软件开发团队是任何组织能够持续交付价值的关键，将团队视为交付的基础，团队结构和沟通路径能够随着技术和组织成熟度的发展而演变。"
             },
             {
                 "id": "2.4",

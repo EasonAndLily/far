@@ -1,10 +1,10 @@
 {
     "headArticle": {
-        "id": "1.1",
-        "title": "从零开始学Python",
-        "poster": "https://icon.qiantucdn.com/20200428/20ba25d57b0a82909a97adec0c0ba3172",
-        "address": "/articles/1.opening_words/1.1The_Birth_of_the_Werewolf.md",
-        "summary": "A simple, delicate, and modern theme for the static site generator Hexo. It allows you to set up a single or multiple-column (up to three column) blog with its versatile layout configuration. Additionally, it offers plentiful plugins and pluggable widgets so that you can enable the features you want in no time. And with the all-new API designing, Icarus makes the development of this theme painless for developers and users."
+        "id": "2.3",
+        "title": "高效能团队模式",
+        "poster": "https://s1.locimg.com/2024/02/16/49646f2d41bfb.png",
+        "address": "/articles/2.high_performance_organization/2.3high_effect_org.md",
+        "summary": "《康威定律》使我们深刻的认识到“如果系统的架构和组织结构不一致，那么组织结构将成为赢家！” 高效能软件开发团队是任何组织能够持续交付价值的关键，将团队视为交付的基础，团队结构和沟通路径能够随着技术和组织成熟度的发展而演变。学习本文你将了解高效能的团队的拓扑结构及协作模式，并在《康威定律》的指导下，搭建匹配软件架构的高效能团队模式。"
     },
     "articles": [
         {
@@ -20,13 +20,6 @@
             "poster": "https://s1.locimg.com/2023/10/24/1cdc63029e27b.png",
             "address": "/articles/1.opening_words/1.2A_Silver_Bullet.md",
             "summary": "为了对付人狼，我们在寻找可以消灭他们的银弹，寻求一种可以使软件成本像计算机硬件成本一样迅速降低的尚方宝剑！十几年来，我们没有发现银弹存在的痕迹，这不得让我们怀疑是否真的有一颗杀死人狼的银弹？"
-        },
-        {
-            "id": "004",
-            "title": "高效能团队架构",
-            "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
-            "address": "",
-            "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
         }
     ]
 }

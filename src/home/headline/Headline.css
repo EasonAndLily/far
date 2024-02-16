@@ -1,13 +1,13 @@
 .headline {
-  height: 475px;
+  height: 550px;
 }
 
 .headline-poster {
-  height: 270px;
+  height: 322px;
 }
 
 .abstract {
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   display: -webkit-box;
