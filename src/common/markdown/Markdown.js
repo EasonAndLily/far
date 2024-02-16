@@ -7,17 +7,29 @@ import { coldarkCold } from 'react-syntax-highlighter/dist/esm/styles/prism'
 function Markdown({ source }) {
   return (
     <ReactMarkdown components={{
-      h1: ({ node, ...props }) => <div>
-        <h1 {...props} />
+      h1: ({ node, ...props }) => 
+      <div>
+        <h1 {...props} style={{fontWeight: 600}}/>
         <hr></hr>
       </div>,
-      h2: ({ node, ...props }) => <div>
-        <h2 {...props} />
+      h2: ({ node, ...props }) => 
+      <div>
+        <h2 {...props} style={{fontWeight: 600}}/>
         <hr></hr>
+      </div>,
+      h3: ({ node, ...props }) => 
+      <div>
+        <h3 {...props} style={{fontWeight: 600}}/>
+      </div>,
+      h4: ({ node, ...props }) => 
+      <div>
+        <h4 {...props} style={{fontWeight: 600}}/>
       </div>,
       img(props) {
-        return <img {...props} style={{ maxWidth: '100%' }} alt=""></img>
+        return <img {...props} style={{ maxWidth: '100%', display: 'block', marginLeft: 'auto', marginRight: 'auto' }} alt=""></img>
       },
+      blockquote: ({ children }) => 
+      <blockquote style={{backgroundColor: '#f2f2f2', padding: '12px 10px 1px 10px',  borderLeft: '4px solid #ccc', margin: 0 }}>{children}</blockquote>,
       code({ node, inline, className, children, ...props }) {
         const match = /language-(\w+)/.exec(className || "");
 
