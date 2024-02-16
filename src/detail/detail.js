@@ -9,9 +9,7 @@ function Detail(props) {
   useEffect(() => {
     const articleId = props.match.params.id;
     const article = categories.flatMap(category => category.articles).find(article => article.id === articleId);
-    debugger
     if (article.address) {
-      debugger
       const request = new Request(article.address);
       request.get().then((text) => setContent(text));
     }
