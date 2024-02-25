@@ -20,6 +20,20 @@
             "poster": "https://s1.locimg.com/2023/10/24/1cdc63029e27b.png",
             "address": "/articles/1.opening_words/1.2A_Silver_Bullet.md",
             "summary": "为了对付人狼，我们在寻找可以消灭他们的银弹，寻求一种可以使软件成本像计算机硬件成本一样迅速降低的尚方宝剑！十几年来，我们没有发现银弹存在的痕迹，这不得让我们怀疑是否真的有一颗杀死人狼的银弹？"
+        },
+        {
+            "id": "4.4",
+            "title": "Behavior-driven Development",
+            "poster": "https://s1.locimg.com/2024/02/20/6472432f71ed5.jpeg",
+            "address": "/articles/4.delivery_model/4.4Behavior-driven_Development.md",
+            "summary": "BDD是一个非常有价值的开发实践，它使得软件开发更加以用户为中心，以业务为导向，通过用户行为的具体示例，细化了用户故事承载的业务价值，消除团队不同角色的对业务理解差异，从而缔造出一种高效的团队协作模式！"
+        },
+        {
+            "id": "4.4",
+            "title": "Behavior-driven Development",
+            "poster": "https://s1.locimg.com/2024/02/20/6472432f71ed5.jpeg",
+            "address": "/articles/4.delivery_model/4.4Behavior-driven_Development.md",
+            "summary": "BDD是一个非常有价值的开发实践，它使得软件开发更加以用户为中心，以业务为导向，通过用户行为的具体示例，细化了用户故事承载的业务价值，消除团队不同角色的对业务理解差异，从而缔造出一种高效的团队协作模式！"
         }
     ]
 }
