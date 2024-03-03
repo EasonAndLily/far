@@ -22,11 +22,11 @@
             "summary": "为了对付人狼，我们在寻找可以消灭他们的银弹，寻求一种可以使软件成本像计算机硬件成本一样迅速降低的尚方宝剑！十几年来，我们没有发现银弹存在的痕迹，这不得让我们怀疑是否真的有一颗杀死人狼的银弹？"
         },
         {
-            "id": "4.4",
-            "title": "Behavior-driven Development",
-            "poster": "https://s1.locimg.com/2024/02/20/6472432f71ed5.jpeg",
-            "address": "/articles/4.delivery_model/4.4Behavior-driven_Development.md",
-            "summary": "BDD是一个非常有价值的开发实践，它使得软件开发更加以用户为中心，以业务为导向，通过用户行为的具体示例，细化了用户故事承载的业务价值，消除团队不同角色的对业务理解差异，从而缔造出一种高效的团队协作模式！"
+            "id": "3.4",
+            "title": "User Story Map",
+            "poster": "https://s1.locimg.com/2024/03/03/723a21e85537c.png",
+            "address": "/articles/3.high_value_business_model/3.4User_Story_Map.md",
+            "summary": "用户故事地图是是一门在需求拆分过程中保持需求全景图的技术，通过用户故事这一载体，将团队聚焦业务价值的沟通成果形象生动的表达了出来，使得团队成员在设计阶段摒弃不重要的细节，注重用户、体验和价值，最终做出更好的产品！"
         },
         {
             "id": "4.4",
