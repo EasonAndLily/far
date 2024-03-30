@@ -46,10 +46,10 @@
             },
             {
                 "id": "2.4",
-                "title": "组织级知识管理",
-                "poster": "https://s1.locimg.com/2023/10/24/82fd7ec1cfef0.png",
-                "address": "",
-                "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
+                "title": "围绕知识构建软件工程",
+                "poster": "https://s1.locimg.com/2024/03/24/d64521af5e223.png",
+                "address": "/articles/2.high_performance_organization/2.4Knowledge_software_project.md",
+                "summary": "软件是载体，并不是真正的产品，真正的产品是包含在其中的知识。软件只是知识的可执行形式，核心不是产生代码，而是知识的获取与学习。围绕知识构建软件工程，将关注点从如何构造软件，变成了如何提取组织知识，让知识变成显性容易理解的形式传递，将软件研发的过程转为知识具象表达的过程。"
             }
         ]
     },
