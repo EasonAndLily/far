@@ -1,10 +1,16 @@
-html,body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
   overflow: auto;
   scrollbar-color: #c1c1c1 #f8f9fa;
   font-family: MyXingTi, STXingkai, STKaiti, Arial, Helvetica, sans-serif !important;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
 }
 
 body::-webkit-scrollbar {
