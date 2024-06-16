@@ -81,9 +81,9 @@
             {
                 "id": "3.4",
                 "title": "业务建模",
-                "poster": "https://s1.locimg.com/2023/10/24/3a08cf88b2541.png",
-                "address": "",
-                "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
+                "poster": "https://s1.locimg.com/2024/06/12/dd2c914ba396b.jpeg",
+                "address": "/articles/3.high_value_business_model/3.5Business_Model.md",
+                "summary": "软件开发中最困难的部分是对概念模型的抽象! 解决这一关键困难的首要方法是业务建模，从业务出发去构造与业务强相关的模型，将相关的业务流程与功能转化成模型的行为，避免开发人员与业务方的认知差异，为实现软件架构提供支撑！"
             },
             {
                 "id": "3.5",
