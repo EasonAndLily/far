@@ -11,6 +11,9 @@ body {
 .footer {
   text-align: center;
   font-size: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 body::-webkit-scrollbar {
