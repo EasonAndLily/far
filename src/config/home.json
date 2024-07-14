@@ -29,7 +29,7 @@
             "summary": "软件是载体，并不是真正的产品，真正的产品是包含在其中的知识。软件只是知识的可执行形式，核心不是产生代码，而是知识的获取与学习。围绕知识构建软件工程，将关注点从如何构造软件，变成了如何提取组织知识，让知识变成显性容易理解的形式传递，将软件研发的过程转为知识具象表达的过程。"
         },
         {
-            "id": "3.4",
+            "id": "3.3",
             "title": "用户故事地图",
             "poster": "https://s1.locimg.com/2024/03/03/723a21e85537c.png",
             "address": "/articles/3.high_value_business_model/3.4User_Story_Map.md",
@@ -43,10 +43,17 @@
             "summary": "软件开发中最困难的部分是对概念模型的抽象! 解决这一关键困难的首要方法是业务建模，从业务出发去构造与业务强相关的模型，将相关的业务流程与功能转化成模型的行为，避免开发人员与业务方的认知差异，为实现软件架构提供支撑！"
         },
         {
+            "id": "4.1",
+            "title": "敏捷软件研发模式",
+            "poster": "https://0.z.wiki/autoupload/20240713/z7Bp/1280X720/agile.png?type=ha",
+            "address": "/articles/4.agile_practices/4.1Agile_Software_Devlope_Model.md",
+            "summary": "敏捷软件研发模式倡导以客户为中心，快速响应变化，通过迭代和增量的方式来快速交付高质量的产品和服务，它强调团队合作，快速反馈和不断改进，以便在较短的时间内满足客户需求。"
+        },
+        {
             "id": "4.4",
             "title": "行为驱动开发(BDD)",
             "poster": "https://s1.locimg.com/2024/02/20/6472432f71ed5.jpeg",
-            "address": "/articles/4.delivery_model/4.4Behavior-driven_Development.md",
+            "address": "/articles/5.delivery_model/5.4Behavior-driven_Development.md",
             "summary": "BDD是一个非常有价值的开发实践，它使得软件开发更加以用户为中心，以业务为导向，通过用户行为的具体示例，细化了用户故事承载的业务价值，消除团队不同角色的对业务理解差异，从而缔造出一种高效的团队协作模式！"
         }
     ]

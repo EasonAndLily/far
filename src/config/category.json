@@ -107,28 +107,56 @@
         "articles": [
             {
                 "id": "4.1",
-                "title": "精益看板",
-                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
-                "address": "",
-                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+                "title": "敏捷软件研发模式",
+                "poster": "https://0.z.wiki/autoupload/20240713/z7Bp/1280X720/agile.png?type=ha",
+                "address": "/articles/4.agile_practices/4.1Agile_Software_Devlope_Model.md",
+                "summary": "敏捷软件研发模式倡导以客户为中心，快速响应变化，通过迭代和增量的方式来快速交付高质量的产品和服务，它强调团队合作，快速反馈和不断改进，以便在较短的时间内满足客户需求。"
             },
             {
                 "id": "4.2",
-                "title": "迭代排期",
+                "title": "看板方法",
                 "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
                 "address": "",
                 "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
             },
             {
                 "id": "4.3",
-                "title": "敏捷估算",
+                "title": "最小化可行性产品(MVP)",
                 "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
                 "address": "",
                 "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
             },
             {
                 "id": "4.4",
-                "title": "迭代回顾",
+                "title": "敏捷估算",
+                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
+                "address": "",
+                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+            },
+            {
+                "id": "4.5",
+                "title": "迭代排期计划",
+                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
+                "address": "",
+                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+            },
+            {
+                "id": "4.6",
+                "title": "每日敏捷活动",
+                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
+                "address": "",
+                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+            },
+            {
+                "id": "4.7",
+                "title": "迭代评审与回顾",
+                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
+                "address": "",
+                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+            },
+            {
+                "id": "4.7",
+                "title": "精益理论",
                 "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
                 "address": "",
                 "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
@@ -157,7 +185,7 @@
                 "id": "5.3",
                 "title": "行为驱动开发(BDD)",
                 "poster": "https://s1.locimg.com/2024/02/20/6472432f71ed5.jpeg",
-                "address": "/articles/4.delivery_model/4.4Behavior-driven_Development.md",
+                "address": "/articles/5.delivery_model/5.4Behavior-driven_Development.md",
                 "summary": "BDD是一个非常有价值的开发实践，它使得软件开发更加以用户为中心，以业务为导向，通过用户行为的具体示例，细化了用户故事承载的业务价值，消除团队不同角色的对业务理解差异，从而缔造出一种高效的团队协作模式！"
             },
             {
