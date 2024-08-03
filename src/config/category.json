@@ -115,9 +115,9 @@
             {
                 "id": "4.2",
                 "title": "看板方法",
-                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
-                "address": "",
-                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+                "poster": "https://cdn.z.wiki/autoupload/20240803/AlCe/1394X668/kanban_poster.jpg",
+                "address": "/articles/4.agile_practices/4.2Kanban_Method.md",
+                "summary": "“打击低效加班，拒绝形式主义！”看板方法是一种用于高效管理软件开发流程的新兴技术。以一种极其简单的形式，却极其强大地使用“拉动式生成”来限制了在制品数量，确保了工作项的流动性和团队的响应速度，提高了工作效率和项目的整体交付速度。"
             },
             {
                 "id": "4.3",
