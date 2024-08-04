@@ -24,7 +24,7 @@ ReactDOM.render(
         </aside>
         <article className="col-md-9 opacity-9 mb-4">
           <Switch>
-            <Route path="/category/:id" component={Search}>
+            <Route path="/categories" component={Search}>
             </Route>
             <Route path="/search" component={Search}>
             </Route>

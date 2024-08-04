@@ -21,8 +21,10 @@ function Search(props) {
             return;
         }
 
-        const categoryId = props.match.params.id;
-        if (categoryId) {
+        if (props.match.path.includes('categories')) {
+            const search = props.location.search;
+            const params = new URLSearchParams(search);
+            const categoryId = params.get('categoryId');
             const category = categories.find(category => category.id === categoryId);
             setArticles(category.articles);
         }
