@@ -27,7 +27,7 @@ function Thumbnail(props) {
           </div>
           <div className="mt-auto">
             <Link
-              to="/articles/id"
+              to="/articles?articleId=1.1"
               className="btn btn-outline-dark btn-sm mb-2 float-right mr-2 rounded-pill">
               开始学习
             </Link>

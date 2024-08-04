@@ -50,7 +50,7 @@
             "summary": "敏捷软件研发模式倡导以客户为中心，快速响应变化，通过迭代和增量的方式来快速交付高质量的产品和服务，它强调团队合作，快速反馈和不断改进，以便在较短的时间内满足客户需求。"
         },
         {
-            "id": "4.4",
+            "id": "5.3",
             "title": "行为驱动开发(BDD)",
             "poster": "https://s1.locimg.com/2024/02/20/6472432f71ed5.jpeg",
             "address": "/articles/5.delivery_model/5.4Behavior-driven_Development.md",

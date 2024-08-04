@@ -7,7 +7,9 @@ function Detail(props) {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    const articleId = props.match.params.id;
+    const search = props.location.search;
+    const params = new URLSearchParams(search);
+    const articleId = params.get('articleId');
     const article = categories.flatMap(category => category.articles).find(article => article.id === articleId);
     if (article.address) {
       const request = new Request(article.address);

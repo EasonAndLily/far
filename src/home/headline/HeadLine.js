@@ -21,7 +21,7 @@ function Headline(props) {
         </h5>
         <p className="card-text abstract">{props.article.summary}</p>
         <Link
-          to={`/articles/${props.article.id}`}
+          to={`/articles?articleId=${props.article.id}`}
           className="btn btn-outline-dark mt-2 btn-sm">
           开始学习
         </Link>

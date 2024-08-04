@@ -35,8 +35,8 @@ function Category(props) {
           {
             item.articles.map((article) => (
               <Route key={article.id} render={({ history }) => {
-                return (<p key={article.id} onClick={() => history.push(`/articles/${article.id}`)}>
-                  <Link to={`/articles/${article.id}`} className="text-dark">
+                return (<p key={article.id} onClick={() => history.push(`/articles?articleId=${article.id}`)}>
+                  <Link to={`/articles?articleId=${article.id}`} className="text-dark">
                     {article.title}
                   </Link>
                 </p>)
