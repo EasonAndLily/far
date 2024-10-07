@@ -136,30 +136,16 @@
             {
                 "id": "4.5",
                 "title": "迭代排期计划",
-                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
-                "address": "",
-                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+                "poster": "https://s1.locimg.com/2024/09/29/89addef2b972f.png",
+                "address": "/articles/4.agile_practices/4.5Agile_Iteration_Planing.md",
+                "summary": "计划作为实现宏伟目标的指南针，在项目管理中占据核心地位。通过设计产品发展路线、设定里程碑以及召开迭代计划会议，计划协助团队在瞬息万变的环境中维持灵活性和应变能力。"
             },
             {
                 "id": "4.6",
-                "title": "每日敏捷活动",
-                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
-                "address": "",
-                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
-            },
-            {
-                "id": "4.7",
-                "title": "迭代评审与回顾",
-                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
-                "address": "",
-                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
-            },
-            {
-                "id": "4.7",
-                "title": "精益理论",
-                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
-                "address": "",
-                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
+                "title": "敏捷迭代活动",
+                "poster": "https://s1.locimg.com/2024/10/02/46516e6473ef0.jpg",
+                "address": "/articles/4.agile_practices/4.6Agile_Activities.md",
+                "summary": "在每个迭代周期中，我们通过一系列敏捷活动（如站会、开结卡、展示和回顾）紧密连接各个环节，确保每张故事卡得到有效实施。这有助于提高团队协作能力，逐步实现迭代冲刺目标，并持续优化产品。"
             }
         ]
     },
