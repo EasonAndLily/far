@@ -155,17 +155,10 @@
         "articles": [
             {
                 "id": "5.1",
-                "title": "认知行为模型",
-                "poster": "https://s1.locimg.com/2023/09/20/13ea50a219ac0.jpeg",
-                "address": "",
-                "summary": "相比于传统的职能竖井式架构，高效能敏捷架构从业务天然存在的边界出发，将团队构建为四种类型，从而加速了知识的传播，提升了效率！"
-            },
-            {
-                "id": "5.2",
                 "title": "高效能软件架构设计",
-                "poster": "https://s1.locimg.com/2023/10/24/6724f77a535df.png",
-                "address": "",
-                "summary": "相比于传统的单一自动化测试来说，高效能测试从架构出发，以业务价值为核心，使用TDD，皮下测试，契约测试，视觉测试等，全面提升测试质量！"
+                "poster": "https://s1.locimg.com/2024/10/04/03cc426870ee1.jpg",
+                "address": "/articles/5.delivery_model/5.1Software_Architecture.md",
+                "summary": "架构就是软件中那些重要且不容易改变的决策，更是软件系统的根基所在，一个优秀的软件架构能够确保系统的稳定性、可维护性及可扩展性，进而降低系统风险与成本，极大地推动软件研发效能的提升。"
             },
             {
                 "id": "5.3",
